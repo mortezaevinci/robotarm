@@ -1,0 +1,6 @@
+%implements s1_b0_kcnwl_Outputs "C"
+
+%function Outputs(block, system) Output
+
+%<SLibCGIRGenReusableSysCallNoCGIRArgs(0, 0, 3, 0, 3, 1)>\
+%endfunction

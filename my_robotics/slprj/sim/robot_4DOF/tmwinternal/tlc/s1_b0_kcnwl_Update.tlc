@@ -1,0 +1,6 @@
+%implements s1_b0_kcnwl_Update "C"
+
+%function Update(block, system) Output
+
+%<SLibCGIRGenReusableSysCallNoCGIRArgs(0, 0, 4, 0, 4, 1)>\
+%endfunction

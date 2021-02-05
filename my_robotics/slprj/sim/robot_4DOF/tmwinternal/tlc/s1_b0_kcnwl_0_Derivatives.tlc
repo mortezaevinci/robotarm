@@ -1,0 +1,10 @@
+%implements s1_b0_kcnwl_0_Derivatives "C"
+
+%function Derivatives(block, system) Output
+%assign tlcDerivativesFcnOfS0B0 = OpaqueTLCBlockFcn("Derivatives", 0, 0)
+%assign tlcDerivativesFcnOfS0B3 = OpaqueTLCBlockFcn("Derivatives", 0, 3)
+
+%<tlcDerivativesFcnOfS0B0>\
+
+%<tlcDerivativesFcnOfS0B3>\
+%endfunction

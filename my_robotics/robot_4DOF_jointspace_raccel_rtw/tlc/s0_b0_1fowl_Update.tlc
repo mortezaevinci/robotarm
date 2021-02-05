@@ -1,0 +1,7 @@
+%implements s0_b0_1fowl_Update "C"
+
+%function Update(block, system) Output
+%assign tlcUpdateFcnOfS0B2 = OpaqueTLCBlockFcn("Update", 0, 2)
+
+%<tlcUpdateFcnOfS0B2>\
+%endfunction

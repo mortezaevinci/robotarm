@@ -1,0 +1,6 @@
+%implements s1_b0_kcnwl_Terminate "C"
+
+%function Terminate(block, system) Output
+
+%<SLibCGIRGenReusableSysCallNoCGIRArgs(0, 0, 14, 0, 14, 1)>\
+%endfunction

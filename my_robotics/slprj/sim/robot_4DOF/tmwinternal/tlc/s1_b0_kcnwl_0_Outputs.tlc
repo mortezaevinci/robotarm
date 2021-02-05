@@ -1,0 +1,58 @@
+%implements s1_b0_kcnwl_0_Outputs "C"
+
+%function Outputs(block, system) Output
+%<SLibCGIRAccessLocalVar(4, 0)> %% B_0_7_0
+%<SLibCGIRAccessLocalVar(2, 0)> %% B_0_4_0
+%<SLibCGIRAccessLocalVar(3, 0)> %% B_0_6_0
+
+{
+real_T Pseudoinverse_X[16];
+real_T Pseudoinverse_V[16];
+real_T Pseudoinverse_U[16];
+real_T Pseudoinverse_WORK[4];
+real_T Pseudoinverse_E[4];
+real_T Pseudoinverse_S[4];
+real_T B_0_5_0[16];
+int32_T i;
+%assign tlcOutputsFcnOfS0B0 = OpaqueTLCBlockFcn("Outputs", 0, 0)
+%assign tlcOutputsFcnOfS0B1 = OpaqueTLCBlockFcn("Outputs", 0, 1)
+%assign tlcOutputsFcnOfS0B2 = OpaqueTLCBlockFcn("Outputs", 0, 2)
+%assign tlcOutputsFcnOfS0B3 = OpaqueTLCBlockFcn("Outputs", 0, 3)
+%assign tlcOutputsFcnOfS0B4 = OpaqueTLCBlockFcn("Outputs", 0, 4)
+%assign tlcOutputsFcnOfS0B5 = OpaqueTLCBlockFcn("Outputs", 0, 5)
+
+%<tlcOutputsFcnOfS0B0>\
+
+%<tlcOutputsFcnOfS0B1>\
+
+%<tlcOutputsFcnOfS0B2>\
+
+%<tlcOutputsFcnOfS0B3>\
+
+%<tlcOutputsFcnOfS0B4>\
+
+/* %<"Copy input to temporary space"> */
+memcpy((void *)%<SLibCG_SE(SLibCG_NASDWVAddr(1, 16, "", -1, "", 0))>, (void *)&B_0_4_0[0], sizeof(real_T) << 4U);
+/* %<"Call SVD"> */
+i = MWDSP_SVD_D(%<SLibCG_NASDWVAddr(1, 16, "", -1, "", 0)>, 4, 4, %<SLibCG_NASDWVAddr(4, 4, "", -1, "", 0)>, %<SLibCG_NASDWVAddr(2, 4, "", -1, "", 0)>, %<SLibCG_NASDWVAddr(3, 4, "", -1, "", 0)>, %<SLibCG_NASDWVAddr(5, 16, "", -1, "", 0)>, %<SLibCG_NASDWVAddr(6, 16, "", -1, "", 0)>, 1);
+/* %<"Only call \'pinv\' function if SVD succeeded"> */
+if(i == 0) {
+MWDSPCG_Pseudoinverse_D(%<SLibCG_NASDWVAddr(4, 4, "", -1, "", 0)>, %<SLibCG_NASDWVAddr(5, 16, "", -1, "", 0)>, %<SLibCG_NASDWVAddr(6, 16, "", -1, "", 0)>, &B_0_5_0[0U], (const int32_T)4, (const int32_T)4);
+}
+
+%<tlcOutputsFcnOfS0B5>\
+
+B_0_7_0[0] = (%<SLibCG_SE(SLibCGIR_IArg(0, 0, 0, 1, "", -1, "", 0))> - B_0_7_0[0]) - B_0_6_0[0];
+B_0_7_0[1] = (%<SLibCG_SE(SLibCGIR_IArg(0, 0, 0, 1, "", -1, "", 0))> - B_0_7_0[1]) - B_0_6_0[1];
+B_0_7_0[2] = (%<SLibCG_SE(SLibCGIR_IArg(0, 0, 0, 1, "", -1, "", 0))> - B_0_7_0[2]) - B_0_6_0[2];
+B_0_7_0[3] = (%<SLibCG_SE(SLibCGIR_IArg(0, 0, 0, 1, "", -1, "", 0))> - B_0_7_0[3]) - B_0_6_0[3];
+
+for(i = 0; i < 4; i++) {
+%<SLibCG_SetBOV(0, 0, 1, 0, 0, 4, "", -1, "i", 0, "0.0")>\
+%<SLibCG_SetBOV(0, 0, 1, 0, 0, 4, "", -1, "i", 0, "B_0_5_0[i] * B_0_7_0[0] + %<SLibCG_SE(SLibCG_BOV(0, 0, 1, 0, 0, 4, "", -1, "i", 0))>")>\
+%<SLibCG_SetBOV(0, 0, 1, 0, 0, 4, "", -1, "i", 0, "B_0_5_0[i + 4] * B_0_7_0[1] + %<SLibCG_SE(SLibCG_BOV(0, 0, 1, 0, 0, 4, "", -1, "i", 0))>")>\
+%<SLibCG_SetBOV(0, 0, 1, 0, 0, 4, "", -1, "i", 0, "B_0_5_0[i + 8] * B_0_7_0[2] + %<SLibCG_SE(SLibCG_BOV(0, 0, 1, 0, 0, 4, "", -1, "i", 0))>")>\
+%<SLibCG_SetBOV(0, 0, 1, 0, 0, 4, "", -1, "i", 0, "B_0_5_0[i + 12] * B_0_7_0[3] + %<SLibCG_SE(SLibCG_BOV(0, 0, 1, 0, 0, 4, "", -1, "i", 0))>")>\
+}
+}
+%endfunction

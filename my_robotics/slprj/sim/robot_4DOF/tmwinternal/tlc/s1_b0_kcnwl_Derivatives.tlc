@@ -1,0 +1,6 @@
+%implements s1_b0_kcnwl_Derivatives "C"
+
+%function Derivatives(block, system) Output
+
+%<SLibCGIRGenReusableSysCallNoCGIRArgs(0, 0, 5, 0, 5, 1)>\
+%endfunction

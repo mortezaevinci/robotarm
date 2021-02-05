@@ -1,0 +1,10 @@
+%implements s1_b0_kcnwl_0_InitializeConditions "C"
+
+%function InitializeConditions(block, system) Output
+%assign tlcInitializeConditionsFcnOfS0B0 = OpaqueTLCBlockFcn("InitializeConditions", 0, 0)
+%assign tlcInitializeConditionsFcnOfS0B3 = OpaqueTLCBlockFcn("InitializeConditions", 0, 3)
+
+%<tlcInitializeConditionsFcnOfS0B0>\
+
+%<tlcInitializeConditionsFcnOfS0B3>\
+%endfunction

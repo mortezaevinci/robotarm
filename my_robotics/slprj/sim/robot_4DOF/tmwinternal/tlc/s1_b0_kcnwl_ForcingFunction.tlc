@@ -1,0 +1,6 @@
+%implements s1_b0_kcnwl_ForcingFunction "C"
+
+%function ForcingFunction(block, system) Output
+
+%<SLibCGIRGenReusableSysCallNoCGIRArgs(0, 0, 7, 0, 7, 1)>\
+%endfunction

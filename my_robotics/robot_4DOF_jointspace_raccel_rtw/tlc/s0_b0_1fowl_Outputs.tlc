@@ -1,0 +1,101 @@
+%implements s0_b0_1fowl_Outputs "C"
+
+%function Outputs(block, system) Output
+%<SLibCGIRAccessLocalVar(5, 0)> %% rtb_V
+%<SLibCGIRAccessLocalVar(6, 0)> %% rtb_Sum_kj
+%<SLibCGIRAccessLocalVar(4, 0)> %% rtb_M
+
+{
+real_T Pseudoinverse_X[16];
+real_T Pseudoinverse_V[16];
+real_T Pseudoinverse_U[16];
+real_T Pseudoinverse_WORK[4];
+real_T Pseudoinverse_E[4];
+real_T Pseudoinverse_S[4];
+real_T rtb_Pseudoinverse[16];
+int32_T i;
+real_T rtb_Sum_k_idx;
+real_T rtb_Sum_k_idx_0;
+real_T rtb_Sum_k_idx_1;
+real_T rtb_Sum_k_idx_2;
+%assign tlcOutputsFcnOfS0B0 = OpaqueTLCBlockFcn("Outputs", 0, 0)
+%assign tlcOutputsFcnOfS0B2 = OpaqueTLCBlockFcn("Outputs", 0, 2)
+%assign tlcOutputsFcnOfS0B3 = OpaqueTLCBlockFcn("Outputs", 0, 3)
+%assign tlcOutputsFcnOfS0B4 = OpaqueTLCBlockFcn("Outputs", 0, 4)
+%assign tlcOutputsFcnOfS0B5 = OpaqueTLCBlockFcn("Outputs", 0, 5)
+%assign tlcOutputsFcnOfS0B6 = OpaqueTLCBlockFcn("Outputs", 0, 6)
+
+%<SLibCG_SetBOV(0, 0, 0, 0, 0, 4, "", -1, "", 0, "%<SLibCG_CS(3, 0, 0, 0, 4, -1, "", 0)>")>\
+%<SLibCG_SetBOV(0, 0, 0, 0, 0, 4, "", -1, "", 1, "%<SLibCG_CS(3, 0, 0, 0, 4, -1, "", 1)>")>\
+%<SLibCG_SetBOV(0, 0, 0, 0, 0, 4, "", -1, "", 2, "%<SLibCG_CS(3, 0, 0, 0, 4, -1, "", 2)>")>\
+%<SLibCG_SetBOV(0, 0, 0, 0, 0, 4, "", -1, "", 3, "%<SLibCG_CS(3, 0, 0, 0, 4, -1, "", 3)>")>\
+if(%<LibIsSampleHit(1)>) {
+
+%<tlcOutputsFcnOfS0B0>\
+}
+
+rtb_Sum_k_idx = %<SLibCG_SE(SLibCGIR_PV(2, 1, 1, 0, 0, 4, -1, "", 0))> - %<SLibCG_SE(SLibCG_BOV(0, 0, 0, 0, 0, 4, "", -1, "", 0))>;
+%<SLibCG_SetBOV(0, 1, 1, 0, 0, 4, "", -1, "", 0, "%<SLibCG_SE(SLibCGIR_PV(2, 2, 2, 0, 0, 4, -1, "", 0))> * rtb_Sum_k_idx")>\
+rtb_Sum_k_idx_0 = rtb_Sum_k_idx;
+rtb_Sum_k_idx = %<SLibCG_SE(SLibCGIR_PV(2, 1, 1, 0, 0, 4, -1, "", 1))> - %<SLibCG_SE(SLibCG_BOV(0, 0, 0, 0, 0, 4, "", -1, "", 1))>;
+%<SLibCG_SetBOV(0, 1, 1, 0, 0, 4, "", -1, "", 1, "%<SLibCG_SE(SLibCGIR_PV(2, 2, 2, 0, 0, 4, -1, "", 1))> * rtb_Sum_k_idx")>\
+rtb_Sum_k_idx_1 = rtb_Sum_k_idx;
+rtb_Sum_k_idx = %<SLibCG_SE(SLibCGIR_PV(2, 1, 1, 0, 0, 4, -1, "", 2))> - %<SLibCG_SE(SLibCG_BOV(0, 0, 0, 0, 0, 4, "", -1, "", 2))>;
+%<SLibCG_SetBOV(0, 1, 1, 0, 0, 4, "", -1, "", 2, "%<SLibCG_SE(SLibCGIR_PV(2, 2, 2, 0, 0, 4, -1, "", 2))> * rtb_Sum_k_idx")>\
+rtb_Sum_k_idx_2 = rtb_Sum_k_idx;
+rtb_Sum_k_idx = %<SLibCG_SE(SLibCGIR_PV(2, 1, 1, 0, 0, 4, -1, "", 3))> - %<SLibCG_SE(SLibCG_BOV(0, 0, 0, 0, 0, 4, "", -1, "", 3))>;
+%<SLibCG_SetBOV(0, 1, 1, 0, 0, 4, "", -1, "", 3, "%<SLibCG_SE(SLibCGIR_PV(2, 2, 2, 0, 0, 4, -1, "", 3))> * rtb_Sum_k_idx")>\
+
+%<tlcOutputsFcnOfS0B2>\
+
+%<SLibCG_SetBOV(0, 2, 2, 0, 0, 4, "", -1, "", 0, "%<SLibCG_SE(SLibCGIR_PV(2, 3, 3, 0, 0, 4, -1, "", 0))> * rtb_Sum_k_idx_0")>\
+rtb_Sum_kj[0] = %<SLibCG_CS(3, 1, 0, 0, 4, -1, "", 0)>;
+rtb_Sum_k_idx_0 = (%<SLibCG_SE(SLibCGIR_PV(2, 5, 5, 0, 0, 4, -1, "", 0))> * rtb_Sum_k_idx_0 + rtb_Sum_kj[0]) + rtb_V[0];
+%<SLibCG_SetBOV(0, 2, 2, 0, 0, 4, "", -1, "", 1, "%<SLibCG_SE(SLibCGIR_PV(2, 3, 3, 0, 0, 4, -1, "", 1))> * rtb_Sum_k_idx_1")>\
+rtb_Sum_kj[1] = %<SLibCG_CS(3, 1, 0, 0, 4, -1, "", 1)>;
+rtb_Sum_k_idx_1 = (%<SLibCG_SE(SLibCGIR_PV(2, 5, 5, 0, 0, 4, -1, "", 1))> * rtb_Sum_k_idx_1 + rtb_Sum_kj[1]) + rtb_V[1];
+%<SLibCG_SetBOV(0, 2, 2, 0, 0, 4, "", -1, "", 2, "%<SLibCG_SE(SLibCGIR_PV(2, 3, 3, 0, 0, 4, -1, "", 2))> * rtb_Sum_k_idx_2")>\
+rtb_Sum_kj[2] = %<SLibCG_CS(3, 1, 0, 0, 4, -1, "", 2)>;
+rtb_Sum_k_idx_2 = (%<SLibCG_SE(SLibCGIR_PV(2, 5, 5, 0, 0, 4, -1, "", 2))> * rtb_Sum_k_idx_2 + rtb_Sum_kj[2]) + rtb_V[2];
+%<SLibCG_SetBOV(0, 2, 2, 0, 0, 4, "", -1, "", 3, "%<SLibCG_SE(SLibCGIR_PV(2, 3, 3, 0, 0, 4, -1, "", 3))> * rtb_Sum_k_idx")>\
+rtb_Sum_kj[3] = %<SLibCG_CS(3, 1, 0, 0, 4, -1, "", 3)>;
+rtb_Sum_k_idx = (%<SLibCG_SE(SLibCGIR_PV(2, 5, 5, 0, 0, 4, -1, "", 3))> * rtb_Sum_k_idx + rtb_Sum_kj[3]) + rtb_V[3];
+if(%<LibIsSampleHit(1)>) {
+
+%<tlcOutputsFcnOfS0B3>\
+}
+
+%<tlcOutputsFcnOfS0B4>\
+
+%<SLibCG_SetBOV(0, 3, 3, 0, 0, 4, "", -1, "", 0, "%<SLibCG_CS(3, 2, 0, 0, 4, -1, "", 0)>")>\
+%<SLibCG_SetBOV(0, 3, 3, 0, 0, 4, "", -1, "", 1, "%<SLibCG_CS(3, 2, 0, 0, 4, -1, "", 1)>")>\
+%<SLibCG_SetBOV(0, 3, 3, 0, 0, 4, "", -1, "", 2, "%<SLibCG_CS(3, 2, 0, 0, 4, -1, "", 2)>")>\
+%<SLibCG_SetBOV(0, 3, 3, 0, 0, 4, "", -1, "", 3, "%<SLibCG_CS(3, 2, 0, 0, 4, -1, "", 3)>")>\
+
+%<tlcOutputsFcnOfS0B5>\
+
+/* %<"Copy input to temporary space"> */
+memcpy((void *)%<SLibCG_SE(SLibCG_NASDWVAddr(3, 16, "", -1, "", 0))>, (void *)&rtb_M[0], sizeof(real_T) << 4U);
+/* %<"Call SVD"> */
+i = MWDSP_SVD_D(%<SLibCG_NASDWVAddr(3, 16, "", -1, "", 0)>, 4, 4, %<SLibCG_NASDWVAddr(6, 4, "", -1, "", 0)>, %<SLibCG_NASDWVAddr(4, 4, "", -1, "", 0)>, %<SLibCG_NASDWVAddr(5, 4, "", -1, "", 0)>, %<SLibCG_NASDWVAddr(7, 16, "", -1, "", 0)>, %<SLibCG_NASDWVAddr(8, 16, "", -1, "", 0)>, 1);
+/* %<"Only call \'pinv\' function if SVD succeeded"> */
+if(i == 0) {
+MWDSPCG_Pseudoinverse_D(%<SLibCG_NASDWVAddr(6, 4, "", -1, "", 0)>, %<SLibCG_NASDWVAddr(7, 16, "", -1, "", 0)>, %<SLibCG_NASDWVAddr(8, 16, "", -1, "", 0)>, &rtb_Pseudoinverse[0U], (const int32_T)4, (const int32_T)4);
+}
+
+%<tlcOutputsFcnOfS0B6>\
+
+rtb_Sum_kj[0] = (rtb_Sum_k_idx_0 - rtb_Sum_kj[0]) - rtb_V[0];
+rtb_Sum_kj[1] = (rtb_Sum_k_idx_1 - rtb_Sum_kj[1]) - rtb_V[1];
+rtb_Sum_kj[2] = (rtb_Sum_k_idx_2 - rtb_Sum_kj[2]) - rtb_V[2];
+rtb_Sum_kj[3] = (rtb_Sum_k_idx - rtb_Sum_kj[3]) - rtb_V[3];
+
+for(i = 0; i < 4; i++) {
+%<SLibCG_SetBOV(0, 4, 4, 0, 0, 4, "", -1, "i", 0, "0.0")>\
+%<SLibCG_SetBOV(0, 4, 4, 0, 0, 4, "", -1, "i", 0, "rtb_Pseudoinverse[i] * rtb_Sum_kj[0] + %<SLibCG_SE(SLibCG_BOV(0, 4, 4, 0, 0, 4, "", -1, "i", 0))>")>\
+%<SLibCG_SetBOV(0, 4, 4, 0, 0, 4, "", -1, "i", 0, "rtb_Pseudoinverse[i + 4] * rtb_Sum_kj[1] + %<SLibCG_SE(SLibCG_BOV(0, 4, 4, 0, 0, 4, "", -1, "i", 0))>")>\
+%<SLibCG_SetBOV(0, 4, 4, 0, 0, 4, "", -1, "i", 0, "rtb_Pseudoinverse[i + 8] * rtb_Sum_kj[2] + %<SLibCG_SE(SLibCG_BOV(0, 4, 4, 0, 0, 4, "", -1, "i", 0))>")>\
+%<SLibCG_SetBOV(0, 4, 4, 0, 0, 4, "", -1, "i", 0, "rtb_Pseudoinverse[i + 12] * rtb_Sum_kj[3] + %<SLibCG_SE(SLibCG_BOV(0, 4, 4, 0, 0, 4, "", -1, "i", 0))>")>\
+}
+}
+%endfunction

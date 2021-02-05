@@ -1,0 +1,21 @@
+%implements s0_b0_1fowl_InitializeConditions "C"
+
+%function InitializeConditions(block, system) Output
+%assign tlcInitializeConditionsFcnOfS0B2 = OpaqueTLCBlockFcn("InitializeConditions", 0, 2)
+
+%<SLibCG_CS(3, 0, 0, 0, 4, -1, "", 0)> = %<SLibCGIR_PV(2, 0, 0, 0, 0, 1, -1, "", 0)>;
+%<SLibCG_CS(3, 0, 0, 0, 4, -1, "", 1)> = %<SLibCGIR_PV(2, 0, 0, 0, 0, 1, -1, "", 0)>;
+%<SLibCG_CS(3, 0, 0, 0, 4, -1, "", 2)> = %<SLibCGIR_PV(2, 0, 0, 0, 0, 1, -1, "", 0)>;
+%<SLibCG_CS(3, 0, 0, 0, 4, -1, "", 3)> = %<SLibCGIR_PV(2, 0, 0, 0, 0, 1, -1, "", 0)>;
+
+%<tlcInitializeConditionsFcnOfS0B2>\
+
+%<SLibCG_CS(3, 1, 0, 0, 4, -1, "", 0)> = %<SLibCGIR_PV(2, 4, 4, 0, 0, 1, -1, "", 0)>;
+%<SLibCG_CS(3, 2, 0, 0, 4, -1, "", 0)> = %<SLibCGIR_PV(2, 6, 6, 0, 0, 1, -1, "", 0)>;
+%<SLibCG_CS(3, 1, 0, 0, 4, -1, "", 1)> = %<SLibCGIR_PV(2, 4, 4, 0, 0, 1, -1, "", 0)>;
+%<SLibCG_CS(3, 2, 0, 0, 4, -1, "", 1)> = %<SLibCGIR_PV(2, 6, 6, 0, 0, 1, -1, "", 0)>;
+%<SLibCG_CS(3, 1, 0, 0, 4, -1, "", 2)> = %<SLibCGIR_PV(2, 4, 4, 0, 0, 1, -1, "", 0)>;
+%<SLibCG_CS(3, 2, 0, 0, 4, -1, "", 2)> = %<SLibCGIR_PV(2, 6, 6, 0, 0, 1, -1, "", 0)>;
+%<SLibCG_CS(3, 1, 0, 0, 4, -1, "", 3)> = %<SLibCGIR_PV(2, 4, 4, 0, 0, 1, -1, "", 0)>;
+%<SLibCG_CS(3, 2, 0, 0, 4, -1, "", 3)> = %<SLibCGIR_PV(2, 6, 6, 0, 0, 1, -1, "", 0)>;
+%endfunction

@@ -1,0 +1,3247 @@
+CompiledModel {
+  Name			  "robot_4DOF_jointspace"
+  Version		  "7.3  (R2009a)  15-Jan-2009"
+  ModelVersion		  "1.22"
+  GeneratedOn		  "Sat Aug 14 22:22:39 2010"
+  HasSimStructVars	  0
+  HasCodeVariants	  0
+  ExprFolding		  1
+  TargetStyle		  "StandAloneTarget"
+  NumDataStoresGlobalDSM  0
+  RightClickBuild	  0
+  ModelReferenceTargetType "NONE"
+  AllowNoArgFcnInReusedFcn 0
+  StandaloneSSSupported	  0
+  StandaloneSubsystemTesting 0
+  PadderActive		  0
+  PrmModelName		  SLDataModelName(robot_4DOF_jointspace)
+  TrigSSSplitOutUpd	  1
+  UniqueFromFiles	  []
+  UniqueToFiles		  []
+  GlobalScope {
+    tTIDType		    "int_T"
+    tControlPortIdxTpye	    "int_T"
+    tInf		    "rtInf"
+    tInfType		    "real_T"
+    tMinusInf		    "rtMinusInf"
+    tMinusInfType	    "real_T"
+    tNaN		    "rtNaN"
+    tNaNType		    "real_T"
+    tChildSimStruct	    "rts"
+    tTID		    "tid"
+    tControlPortIdx	    "controlPortIdx"
+    tChildModels	    "childModels"
+    tSimStruct		    "rtS"
+    tSimStructType	    "SimStruct"
+    tParametersType	    "Parameters"
+    tBlockIOType	    "BlockIO"
+    tContStateType	    "ContinuousStates"
+    tXdotType		    "StateDerivatives"
+    tXdisType		    "StateDisabled"
+    tOutputType		    "ExternalOutputs"
+    tDWorkType		    "D_Work"
+    tPrevZCStateType	    "PrevZCSigStates"
+    tZCSignalValueType	    "ZCSignalValues"
+    tMassMatrixGlobalType   "MassMatrixGlobal"
+    tConstBlockIOType	    "ConstBlockIO"
+    tConstParamType	    "ConstParam"
+    tConstParamWithInitType "ConstParamWithInit"
+    tMdlRefTimingBridgeType "rtTimingBridge"
+    tDefaultParameters	    "rtDefaultParameters"
+    tBlockIO		    "rtB"
+    tContState		    "rtX"
+    tXdot		    "rtXdot"
+    tXdis		    "rtXdis"
+    tOutput		    "rtY"
+    tDWork		    "rtDWork"
+    tPrevZCState	    "rtPrevZCSigState"
+    tZCSignalValue	    "rtZCSignalValue"
+    tMassMatrixGlobal	    "rtMassMatrixGlobal"
+    tConstParamStruct	    "rtConstP"
+    tConstParamWithInitStruct "rtConstWithInitP"
+    tInvariantSignals	    "rtInvariantSignals"
+    tMdlRefTimingBridge	    "rtTimingBridge_d"
+    tMdlRefGlobalTID	    "rtGlobalTID"
+    tModelObject	    "rtObject"
+    tInputType		    "ExternalInputs"
+    tInput		    "rtU"
+    tConstBlockIOStruct	    "rtrtC"
+    tConstBlockIODefine	    "rtrtC"
+    tParameters		    "rtP"
+  }
+  ConfigSet {
+    AutosarCompliant	    0
+    BlockReduction	    1
+    BooleanDataType	    1
+    BufferReusableBoundary  1
+    BufferReuse		    1
+    CPPClassGenCompliant    0
+    CodeGenDirectory	    ""
+    CombineOutputUpdateFcns 0
+    CompOptLevelCompliant   0
+    ConditionallyExecuteInputs 1
+    CustomCommentsFcn	    ""
+    CustomHeaderCode	    ""
+    CustomInclude	    ""
+    CustomInitializer	    ""
+    CustomLibrary	    ""
+    CustomSource	    ""
+    CustomSourceCode	    ""
+    CustomSymbolStrBlkIO    "rtb_$N$M"
+    CustomSymbolStrFcn	    "$R$N$M$F"
+    CustomSymbolStrField    "$N$M"
+    CustomSymbolStrGlobalVar "$R$N$M"
+    CustomSymbolStrMacro    "$R$N$M"
+    CustomSymbolStrTmpVar   "$N$M"
+    CustomSymbolStrType	    "$N$R$M"
+    CustomTerminator	    ""
+    DataBitsets		    0
+    DefineNamingFcn	    ""
+    DefineNamingRule	    "None"
+    ERTCustomFileBanners    0
+    ERTFirstTimeCompliant   0
+    ERTMultiwordLength	    256
+    ERTMultiwordTypeDef	    "System defined"
+    EfficientFloat2IntCast  0
+    EfficientMapNaN2IntZero 0
+    EnableCustomComments    0
+    EnableMemcpy	    1
+    EnforceIntegerDowncast  1
+    EvaledLifeSpan	    rtInf
+    ExpressionFolding	    1
+    ExtMode		    1
+    ExtModeIntrfLevel	    "Level1"
+    ExtModeMexArgs	    ""
+    ExtModeMexFile	    "ext_comm"
+    ExtModeStaticAlloc	    0
+    ExtModeStaticAllocSize  1000000
+    ExtModeTesting	    0
+    ExtModeTransport	    0
+    FoldNonRolledExpr	    1
+    ForceParamTrailComments 0
+    GenerateClassInterface  0
+    GenerateCodeInfo	    0
+    GenerateComments	    0
+    GenerateReport	    0
+    GenerateSampleERTMain   0
+    GenerateTestInterfaces  0
+    GenerateTraceInfo	    0
+    GenerateTraceReport	    0
+    GenerateTraceReportEml  0
+    GenerateTraceReportSf   0
+    GenerateTraceReportSl   0
+    IgnoreCustomStorageClasses 1
+    IgnoreTestpoints	    0
+    IncAutoGenComments	    0
+    IncDataTypeInIds	    0
+    IncHierarchyInIds	    0
+    IncludeBusHierarchyInRTWFileBlockHierarchyMap 0
+    IncludeERTFirstTime	    0
+    IncludeFileDelimiter    "Auto"
+    IncludeHyperlinkInReport 0
+    IncludeMdlTerminateFcn  1
+    InitFltsAndDblsToZero   0
+    InlineInvariantSignals  0
+    InlineParams	    0
+    InlinedPrmAccess	    "Literals"
+    InsertBlockDesc	    0
+    IsERTTarget		    0
+    IsPILTarget		    0
+    LaunchReport	    0
+    LifeSpan		    "inf"
+    LocalBlockOutputs	    1
+    LogVarNameModifier	    "none"
+    MangleLength	    1
+    MatFileLogging	    1
+    MaxIdLength		    128
+    MemcpyThreshold	    64
+    ModelReferenceCompliant 1
+    ModelStepFunctionPrototypeControlCompliant 0
+    MultiInstanceERTCode    0
+    MultiwordLength	    2048
+    NoFixptDivByZeroProtection 0
+    OptimizeBlockIOStorage  1
+    OptimizeModelRefInitCode 0
+    PCMatlabRoot	    "Q:\\\\Program Files\\\\MATLAB\\\\R2009a"
+    ParMdlRefBuildCompliant 0
+    ParamNamingFcn	    ""
+    ParamNamingRule	    "None"
+    ParenthesesLevel	    "Nominal"
+    PassReuseOutputArgsAs   "Structure reference"
+    PassReuseOutputArgsThreshold 12
+    PortableWordSizes	    0
+    PreserveName	    0
+    PreserveNameWithParent  0
+    ProdBitPerChar	    8
+    ProdBitPerInt	    32
+    ProdBitPerLong	    32
+    ProdBitPerShort	    16
+    ProdEndianess	    "Unspecified"
+    ProdEqTarget	    0
+    ProdHWDeviceType	    "32-bit Generic"
+    ProdIntDivRoundTo	    "Undefined"
+    ProdShiftRightIntArith  1
+    ProdWordSize	    32
+    ProfileTLC		    0
+    PurelyIntegerCode	    0
+    RSIM_PARAMETER_LOADING  1
+    RSIM_SOLVER_SELECTION   "UseSolverModule"
+    RSIM_STORAGE_CLASS_AUTO 1
+    RTWCAPIParams	    0
+    RTWCAPISignals	    0
+    RTWCAPIStates	    0
+    ReqsInCode		    0
+    RollThreshold	    5
+    SFDataObjDesc	    0
+    ShowEliminatedStatement 0
+    SignalNamingFcn	    ""
+    SignalNamingRule	    "None"
+    SignalSizeVariationType "Allow only fixed size"
+    SimulinkBlockComments   0
+    SimulinkDataObjDesc	    0
+    StateBitsets	    0
+    SupportAbsoluteTime	    1
+    SupportComplex	    1
+    SupportContinuousTime   1
+    SupportNonFinite	    1
+    SupportNonInlinedSFcns  1
+    SuppressErrorStatus	    0
+    SystemCodeInlineAuto    0
+    SystemTargetFile	    "raccel.tlc"
+    TLCAssert		    0
+    TLCCoverage		    0
+    TLCDebug		    0
+    TargetBitPerChar	    8
+    TargetBitPerInt	    32
+    TargetBitPerLong	    32
+    TargetBitPerShort	    16
+    TargetEndianess	    "LittleEndian"
+    TargetFcnLib	    "ansi_tfl_table_tmw.mat"
+    TargetFunctionLibrary   "ANSI_C"
+    TargetHWDeviceType	    "MATLAB Host"
+    TargetIntDivRoundTo	    "Undefined"
+    TargetLang		    "C"
+    TargetLibSuffix	    ""
+    TargetPreCompLibLocation ""
+    TargetPreprocMaxBitsSint 32
+    TargetPreprocMaxBitsUint 32
+    TargetShiftRightIntArith 1
+    TargetTypeEmulationWarnSuppressLevel 0
+    TargetWordSize	    32
+    UseSimReservedNames	    0
+    UseTempVars		    0
+    UtilityFuncGeneration   "Auto"
+    ZeroCrossAlgorithm	    "Nonadaptive"
+    ZeroCrossControl	    "UseLocalSettings"
+    ZeroExternalMemoryAtStartup	1
+    ZeroInternalMemoryAtStartup	1
+    Diagnostics {
+      SFcnCompatibilityMsg    "none"
+      WriteAfterReadMsg	      "UseLocalSettings"
+      WriteAfterWriteMsg      "UseLocalSettings"
+      SignalInfNanChecking    "none"
+      ModelReferenceExtraNoncontSigs "error"
+      ModelReferenceSymbolNameMessage "warning"
+      ModelReferenceDataLoggingMessage "warning"
+      ModelReferenceCSMismatchMessage "none"
+      ModelReferenceIOMismatchMessage "none"
+      ModelReferenceVersionMismatchMessage "none"
+      ModelReferenceIOMsg     "none"
+      StateNameClashWarn      "warning"
+      IntegerOverflowMsg      "warning"
+      StrictBusMsg	      "Warning"
+      Int32ToFloatConvMsg     "warning"
+      SaveWithParameterizedLinksMsg "warning"
+      SaveWithDisabledLinksMsg "warning"
+      BusObjectLabelMismatch  "warning"
+      RTPrefix		      "error"
+      BlockIODiagnostic	      "none"
+      FcnCallInpInsideContextMsg "Use local settings"
+      BlockPriorityViolationMsg	"warning"
+      DiscreteInheritContinuousMsg "warning"
+      UnderspecifiedInitializationDetection "none"
+      MinStepSizeMsg	      "warning"
+      TimeAdjustmentMsg	      "none"
+      CheckMatrixSingularityMsg	"none"
+      TasksWithSamePriorityMsg "warning"
+      SignalLabelMismatchMsg  "none"
+      AssertControl	      "UseLocalSettings"
+      SolverPrmCheckMsg	      "warning"
+      SignalResolutionControl "UseLocalSettings"
+      MergeDetectMultiDrivingBlocksExec	"none"
+      ArtificialAlgebraicLoopMsg "warning"
+      SignalRangeChecking     "none"
+      SingleTaskRateTransMsg  "none"
+      SigSpecEnsureSampleTimeMsg "warning"
+      ArrayBoundsChecking     "none"
+      LoggingUnavailableSignals	"error"
+      InheritedTsInSrcMsg     "warning"
+      ParameterTunabilityLossMsg "warning"
+      ParameterPrecisionLossMsg	"warning"
+      ParameterUnderflowMsg   "none"
+      ParameterOverflowMsg    "error"
+      ParameterDowncastMsg    "error"
+      UniqueDataStoreMsg      "none"
+      RootOutportRequireBusObject "warning"
+      AlgebraicLoopMsg	      "warning"
+      UnconnectedLineMsg      "warning"
+      UnconnectedOutputMsg    "warning"
+      UnconnectedInputMsg     "warning"
+      InvalidFcnCallConnMsg   "error"
+      ConsistencyChecking     "none"
+      ReadBeforeWriteMsg      "UseLocalSettings"
+      UnderSpecifiedDataTypeMsg	"none"
+      MultiTaskRateTransMsg   "error"
+      MultiTaskCondExecSysMsg "error"
+      MultiTaskDSMMsg	      "error"
+      VectorMatrixConversionMsg	"none"
+      UnnecessaryDatatypeConvMsg "none"
+      UnknownTsInhSupMsg      "warning"
+      MaxConsecutiveZCsMsg    "error"
+    }
+  }
+  Solver		  ode4
+  SolverType		  FixedStep
+  StartTime		  0.0
+  StopTime		  5.0
+  LoadInitialState	  no
+  SolverConsistencyChecking no
+  SolverZeroCrossDetection Nonadaptive
+  LifeSpan		  rtInf
+  SolverResetMethod	  fast
+  SolverUpdateJacobianAtReset no
+  FixedStepOpts {
+    SolverMode		    SingleTasking
+    FixedStep		    0.002
+    ExtrapolationOrder	    -1
+    NumberNewtonIterations  -1
+    TID01EQ		    1
+    DoRTWSFcnTID01EQCheck   0
+  }
+  RTWGenSettings {
+    IsRSim		    "yes"
+    BuildDirSuffix	    "_raccel_rtw"
+    DisableBuildDirOverride "yes"
+    ModelReferenceDirSuffix ""
+    SystemTargetFile	    "Q:\\Program Files\\MATLAB\\R2009a\\rtw\\c\\raccel\\raccel.tlc"
+    tlcTargetType	    "NRT"
+    tlcLanguage		    "C"
+    CodeFormat		    "RealTime"
+    matFileLogging	    "1"
+    MaxStackSize	    "Inf"
+    MaxStackVariableSize    "4096"
+    DivideStackByRate	    "0"
+    MaxConstBOSize	    "Inf"
+    ProtectCallInitFcnTwice "0"
+    ProfileGenCode	    "0"
+    GenRTModel		    "0"
+    ModelReferenceTargetType "NONE"
+    RelativeBuildDir	    "robot_4DOF_jointspace_raccel_rtw"
+    BuildDirectory	    "Q:\\My files\\my codecentral\\MATLAB\\my MATLAB\\my_robotics\\robot_4DOF_jointspace_raccel_rtw"
+    GeneratedTLCSubDir	    "tlc"
+    relativePathToAnchor    ""
+    mdlRefTgtDir	    "raccel"
+    mdlRefRelativeBuildDir  "slprj\\raccel\\robot_4DOF_jointspace"
+    mdlRefRelativeSimDir    "slprj\\sim\\robot_4DOF_jointspace"
+    mdlRefRelativeHdlDir    "slprj\\hdl\\robot_4DOF_jointspace"
+    model		    "robot_4DOF_jointspace"
+  }
+  RTWCGIR		  1
+  TLCBlkFcnInCGIR	  1
+  SubsystemHdlForRightClickBuild 0.0
+  DataLoggingOpts {
+    SaveFormat		    0
+    MaxRows		    1000
+    Decimation		    1
+    TimeSaveName	    "tout"
+    OutputSaveName	    ""
+    NumOutputSaveNames	    0
+    StateSaveName	    "tmp_raccel_xout"
+    FinalStateName	    "xFinal"
+    NumLoggedStates	    3
+    SignalLoggingName	    ""
+  }
+  NumModelInputs	  0
+  NumModelOutputs	  0
+  NumNonVirtBlocksInModel 18
+  DirectFeedthrough	  no
+  NumContStates		  12
+  ModelHasProjections	  no
+  ModelIsLinearlyImplicit no
+  ModelMassMatrixType	  0
+  ModelMassMatrixNzMax	  0
+  ZCFindingDisabled	  yes
+  NumNonsampledZCs	  0
+  NumZCEvents		  0
+  ZCVectorlength	  0
+  NumBlockSignals	  76
+  NumBlockParams	  19
+  NumAlgebraicLoops	  0
+  IsRootTriggeredSystem	  no
+  IsAPERRootTriggeredSystem no
+  RootTriggerTsType	  ""
+  AllSampleTimesInherited yes
+  ModelSampleTimeInheritanceDetails {
+    AllowedOverall	    no
+    IsMultiRate		    yes
+    NeedsAbsTime	    no
+    HasPreSetSampleTimes    yes
+    HasContinuousTs	    yes
+    BlockDisallows	    no
+    HasBlockWithUnknownTsSupport no
+    ConstInterfaceNonConstContents no
+    InheritanceForcedForFcnCall	no
+  }
+  InvariantConstants	  no
+  FundamentalStepSize	  0.002
+  SingleRate		  no
+  NumSampleTimes	  2
+  PositivePriority	  no
+  SampleTime {
+    TID			    0
+    PriorityAssigned	    yes
+    Priority		    39
+    PeriodAndOffset	    [0.0, 0.0]
+    Asynchronous	    no
+    OwnerIdx		    [-1, -1, -1]
+    TimeSource		    Self_internal
+    AsyncPromotedTID	    0
+    TimerUpdateCode	    ""
+    ClockTickStepSize	    0.002
+    NeedAbsoluteTime	    yes
+    NeedFloatTime	    yes
+    ClockTickDataTypeId	    13
+    TaskCounterDataTypeId   3
+  }
+  SampleTime {
+    TID			    1
+    PriorityAssigned	    yes
+    Priority		    40
+    PeriodAndOffset	    [0.002, 0.0]
+    Asynchronous	    no
+    OwnerIdx		    [-1, -1, -1]
+    TimeSource		    Self_internal
+    AsyncPromotedTID	    1
+    TimerUpdateCode	    ""
+    ClockTickStepSize	    0.002
+    NeedAbsoluteTime	    yes
+    NeedFloatTime	    no
+    ClockTickDataTypeId	    13
+    TaskCounterDataTypeId   3
+  }
+  NumVariableSampleTimes  0
+  NumAsynchronousSampleTimes 0
+  NumSynchronousSampleTimes 2
+  HasBlocksWithDiscreteSampleTime yes
+  MdlGenRateGroupingCode  no
+  DataTypes {
+    NumDataTypes	    14
+    NumSLBuiltInDataTypes   9
+    StrictBooleanCheckEnabled 1
+    DataType {
+      DTName		      "double"
+      Id		      0
+      Size		      8
+      IdAliasedTo	      -10
+      IdAliasedThruTo	      0
+      StorageId		      0
+      NumElements	      0
+      IsBus		      0
+      IsEnumType	      0
+      IsSigned		      0
+      RequiredBits	      0
+      FixedExp		      0
+      FracSlope		      1.0
+      Bias		      0.0
+      IsFixedPoint	      0
+      HeaderFile	      ""
+      HasObject		      0
+    }
+    DataType {
+      DTName		      "single"
+      Id		      1
+      Size		      4
+      IdAliasedTo	      -10
+      IdAliasedThruTo	      1
+      StorageId		      1
+      NumElements	      0
+      IsBus		      0
+      IsEnumType	      0
+      IsSigned		      0
+      RequiredBits	      0
+      FixedExp		      0
+      FracSlope		      1.0
+      Bias		      0.0
+      IsFixedPoint	      0
+      HeaderFile	      ""
+      HasObject		      0
+    }
+    DataType {
+      DTName		      "int8"
+      Id		      2
+      Size		      1
+      IdAliasedTo	      -10
+      IdAliasedThruTo	      2
+      StorageId		      2
+      NumElements	      0
+      IsBus		      0
+      IsEnumType	      0
+      IsSigned		      1
+      RequiredBits	      8
+      FixedExp		      0
+      FracSlope		      1.0
+      Bias		      0.0
+      IsFixedPoint	      0
+      HeaderFile	      ""
+      HasObject		      0
+    }
+    DataType {
+      DTName		      "uint8"
+      Id		      3
+      Size		      1
+      IdAliasedTo	      -10
+      IdAliasedThruTo	      3
+      StorageId		      3
+      NumElements	      0
+      IsBus		      0
+      IsEnumType	      0
+      IsSigned		      0
+      RequiredBits	      8
+      FixedExp		      0
+      FracSlope		      1.0
+      Bias		      0.0
+      IsFixedPoint	      0
+      HeaderFile	      ""
+      HasObject		      0
+    }
+    DataType {
+      DTName		      "int16"
+      Id		      4
+      Size		      2
+      IdAliasedTo	      -10
+      IdAliasedThruTo	      4
+      StorageId		      4
+      NumElements	      0
+      IsBus		      0
+      IsEnumType	      0
+      IsSigned		      1
+      RequiredBits	      16
+      FixedExp		      0
+      FracSlope		      1.0
+      Bias		      0.0
+      IsFixedPoint	      0
+      HeaderFile	      ""
+      HasObject		      0
+    }
+    DataType {
+      DTName		      "uint16"
+      Id		      5
+      Size		      2
+      IdAliasedTo	      -10
+      IdAliasedThruTo	      5
+      StorageId		      5
+      NumElements	      0
+      IsBus		      0
+      IsEnumType	      0
+      IsSigned		      0
+      RequiredBits	      16
+      FixedExp		      0
+      FracSlope		      1.0
+      Bias		      0.0
+      IsFixedPoint	      0
+      HeaderFile	      ""
+      HasObject		      0
+    }
+    DataType {
+      DTName		      "int32"
+      Id		      6
+      Size		      4
+      IdAliasedTo	      -10
+      IdAliasedThruTo	      6
+      StorageId		      6
+      NumElements	      0
+      IsBus		      0
+      IsEnumType	      0
+      IsSigned		      1
+      RequiredBits	      32
+      FixedExp		      0
+      FracSlope		      1.0
+      Bias		      0.0
+      IsFixedPoint	      0
+      HeaderFile	      ""
+      HasObject		      0
+    }
+    DataType {
+      DTName		      "uint32"
+      Id		      7
+      Size		      4
+      IdAliasedTo	      -10
+      IdAliasedThruTo	      7
+      StorageId		      7
+      NumElements	      0
+      IsBus		      0
+      IsEnumType	      0
+      IsSigned		      0
+      RequiredBits	      32
+      FixedExp		      0
+      FracSlope		      1.0
+      Bias		      0.0
+      IsFixedPoint	      0
+      HeaderFile	      ""
+      HasObject		      0
+    }
+    DataType {
+      DTName		      "boolean"
+      Id		      8
+      Size		      1
+      IdAliasedTo	      -10
+      IdAliasedThruTo	      8
+      StorageId		      8
+      NumElements	      0
+      IsBus		      0
+      IsEnumType	      0
+      IsSigned		      0
+      RequiredBits	      8
+      FixedExp		      0
+      FracSlope		      1.0
+      Bias		      0.0
+      IsFixedPoint	      0
+      HeaderFile	      ""
+      HasObject		      0
+    }
+    DataType {
+      DTName		      "fcn_call"
+      Id		      9
+      Size		      8
+      IdAliasedTo	      -10
+      IdAliasedThruTo	      9
+      StorageId		      9
+      NumElements	      0
+      IsBus		      0
+      IsEnumType	      0
+      IsFixedPoint	      0
+      HeaderFile	      ""
+      HasObject		      0
+    }
+    DataType {
+      DTName		      "integer"
+      Id		      10
+      Size		      4
+      IdAliasedTo	      -10
+      IdAliasedThruTo	      10
+      StorageId		      10
+      NumElements	      0
+      IsBus		      0
+      IsEnumType	      0
+      IsFixedPoint	      0
+      HeaderFile	      ""
+      HasObject		      0
+    }
+    DataType {
+      DTName		      "pointer"
+      Id		      11
+      Size		      4
+      IdAliasedTo	      -10
+      IdAliasedThruTo	      11
+      StorageId		      11
+      NumElements	      0
+      IsBus		      0
+      IsEnumType	      0
+      IsFixedPoint	      0
+      HeaderFile	      ""
+      HasObject		      0
+    }
+    DataType {
+      DTName		      "action"
+      Id		      12
+      Size		      8
+      IdAliasedTo	      -10
+      IdAliasedThruTo	      12
+      StorageId		      12
+      NumElements	      0
+      IsBus		      0
+      IsEnumType	      0
+      IsFixedPoint	      0
+      HeaderFile	      ""
+      HasObject		      0
+    }
+    DataType {
+      DTName		      "timer_uint32_pair"
+      Id		      13
+      Size		      8
+      IdAliasedTo	      -10
+      IdAliasedThruTo	      13
+      StorageId		      13
+      NumElements	      0
+      IsBus		      0
+      IsEnumType	      0
+      IsFixedPoint	      0
+      HeaderFile	      ""
+      HasObject		      0
+    }
+  }
+  TargetProperties {
+    HasObject		    0
+  }
+  HasEcoderProperties	  0
+  NumBlockTypeCounts	  9
+  BlockTypeCount {
+    Type		    "Derivative"
+    Count		    1
+  }
+  BlockTypeCount {
+    Type		    "Gain"
+    Count		    3
+  }
+  BlockTypeCount {
+    Type		    "Integrator"
+    Count		    3
+  }
+  BlockTypeCount {
+    Type		    "MATLABFcn"
+    Count		    3
+  }
+  BlockTypeCount {
+    Type		    "Product"
+    Count		    1
+  }
+  BlockTypeCount {
+    Type		    "Scope"
+    Count		    2
+  }
+  BlockTypeCount {
+    Type		    "S-Function"
+    Count		    1
+  }
+  BlockTypeCount {
+    Type		    "Sum"
+    Count		    3
+  }
+  BlockTypeCount {
+    Type		    "Constant"
+    Count		    1
+  }
+  NumSFunctionNameCounts  1
+  SFunctionNameCount {
+    Name		    "sdsppinv"
+    Count		    1
+  }
+  BlockHierarchyMap {
+    SignalHierarchyDescriptorDefaults {
+      NumHierarchyNodes	      1
+      Virtual		      0
+      Synthesized	      0
+      _blkref		      [-1, -1, -1]
+      GrSrc		      [-1, -1]
+    }
+    HierarchyNodeDefaults {
+      NumRegions	      0
+      SignalLabel	      ""
+    }
+    SubsystemDefaults {
+      Type		      virtual
+      MaskType		      ""
+      NumBlocks		      0
+      NumInportBlocks	      0
+      NumOutportBlocks	      0
+      NumDataStoreBlocks      0
+      NumSubsystemBlocks      0
+      NumChildSubsystems      0
+      SLContextSysNum	      0
+      NVOwnerSysIdx	      -1
+    }
+    BlockDefaults {
+      Virtual		      0
+      _blkref		      [-1, -1, -1]
+      _callsiteidx	      0
+      NumDataInputPorts	      0
+      NumControlInputPorts    0
+      NumDataOutputPorts      1
+      NumFcnCallOutputPorts   0
+      NumParameters	      0
+      NumContStates	      0
+      NumDerivatives	      0
+      NumDiscStates	      0
+      NumDataStores	      0
+      NumDWorks		      0
+      Description	      ""
+    }
+    DataInputPortDefaults {
+      SLName		      ""
+      SignalLabel	      ""
+      Connected		      1
+      NumRegions	      0
+      TestPoint		      0
+      MdlRefSimLoggableTestPoint 0
+    }
+    ControlInputPortDefaults {
+      SLName		      ""
+      SignalLabel	      ""
+      Connected		      1
+      NumRegions	      0
+      TestPoint		      0
+      MdlRefSimLoggableTestPoint 0
+    }
+    DataOutputPortDefaults {
+      SLName		      ""
+      SignalLabel	      ""
+      Connected		      1
+      NumRegions	      0
+      TestPoint		      0
+      MdlRefSimLoggableTestPoint 0
+    }
+    RegionDefaults {
+      Offset		      0
+      Dimensions	      [1, 1]
+      MemoryMapIdx	      [-1, -1, -1]
+    }
+    ParameterDefaults {
+      IsReference	      0
+      MemoryMapIdx	      [-1, -1, -1]
+    }
+    ContStateDefaults {
+      Dimensions	      [1, 1]
+      MemoryMapIdx	      [-1, -1, -1]
+    }
+    DerivativeDefaults {
+      Dimensions	      [1, 1]
+      MemoryMapIdx	      [-1, -1, -1]
+    }
+    DiscStateDefaults {
+      Dimensions	      [1, 1]
+      MemoryMapIdx	      [-1, -1, -1]
+    }
+    DWorkDefaults {
+      Dimensions	      [1, 1]
+      MemoryMapIdx	      [-1, -1, -1]
+    }
+    DataStoreDefaults {
+      Dimensions	      [1, 1]
+      MemoryMapIdx	      [-1, -1, -1]
+    }
+    Subsystem {
+      Name		      "<Root>"
+      SLName		      "robot_4DOF_jointspace"
+      Type		      root
+      SubsystemBlockIndex     [-1, -1]
+      NVOwnerSysIdx	      0
+      NumBlocks		      5
+      NumSubsystemBlocks      2
+      SubsystemBlocks	      [0:1]
+      NumChildSubsystems      2
+      ChildSubsystems	      [1:2]
+      Block {
+	Name			"<Root>/PID Controller"
+	SLName			"PID Controller"
+	Type			SubSystem
+	Virtual			1
+	NumDataInputPorts	1
+	DataInputPort {
+	  SLName		  "e"
+	}
+	DataOutputPort {
+	  SLName		  "u"
+	}
+      }
+      Block {
+	Name			"<Root>/Subsystem"
+	SLName			"Subsystem"
+	Type			SubSystem
+	Virtual			1
+	NumDataInputPorts	1
+	NumDataOutputPorts	2
+	DataInputPort {
+	  SLName		  "Tau"
+	}
+	DataOutputPort {
+	  SLName		  "X"
+	}
+	DataOutputPort {
+	  SLName		  "Xdot1"
+	  Connected		  0
+	}
+      }
+      Block {
+	Name			"<Root>/desired joint"
+	SLName			"desired joint"
+	Type			Constant
+	_blkref			[0, -1, 1]
+	DataOutputPort {
+	}
+	Parameter {
+	  Name			  "Value"
+	  _idx			  1
+	}
+	NumParameters		1
+      }
+      Block {
+	Name			"<Root>/Scope"
+	SLName			"Scope"
+	Type			Scope
+	_blkref			[0, -1, 0]
+	NumDataInputPorts	1
+	NumDataOutputPorts	0
+	DataInputPort {
+	}
+	NumDiscStates		0
+	DWork {
+	  _idx			  1
+	}
+	NumDWorks		1
+      }
+      Block {
+	Name			"<Root>/Sum"
+	SLName			"Sum"
+	Type			Sum
+	_blkref			[0, -1, 7]
+	NumDataInputPorts	2
+	DataInputPort {
+	}
+	DataInputPort {
+	}
+	DataOutputPort {
+	}
+      }
+    }
+    Subsystem {
+      Name		      "<Root>/PID Controller"
+      SLName		      "PID Controller"
+      MaskType		      "PID Controller"
+      SubsystemBlockIndex     [0, 0]
+      NVOwnerSysIdx	      0
+      NumBlocks		      6
+      Block {
+	Name			"<S1>/Ideal Derivative"
+	SLName			"Ideal\nDerivative"
+	Type			Derivative
+	_blkref			[0, -1, 2]
+	NumDataInputPorts	1
+	DataInputPort {
+	}
+	DataOutputPort {
+	}
+	NumDiscStates		0
+	DWork {
+	  Dimensions		  [1, 10]
+	  _idx			  0
+	}
+	NumDWorks		1
+      }
+      Block {
+	Name			"<S1>/Derivative Gain"
+	SLName			"Derivative\nGain"
+	Type			Gain
+	_blkref			[0, -1, 7]
+	NumDataInputPorts	1
+	DataInputPort {
+	}
+	DataOutputPort {
+	}
+	Parameter {
+	  Name			  "Gain"
+	  _idx			  2
+	}
+	NumParameters		1
+      }
+      Block {
+	Name			"<S1>/Integral Gain"
+	SLName			"Integral\nGain"
+	Type			Gain
+	_blkref			[0, -1, 7]
+	NumDataInputPorts	1
+	DataInputPort {
+	}
+	DataOutputPort {
+	}
+	Parameter {
+	  Name			  "Gain"
+	  _idx			  3
+	}
+	NumParameters		1
+      }
+      Block {
+	Name			"<S1>/Proportional Gain"
+	SLName			"Proportional\nGain"
+	Type			Gain
+	_blkref			[0, -1, 7]
+	NumDataInputPorts	1
+	DataInputPort {
+	}
+	DataOutputPort {
+	}
+	Parameter {
+	  Name			  "Gain"
+	  _idx			  5
+	}
+	NumParameters		1
+      }
+      Block {
+	Name			"<S1>/Integrator"
+	SLName			"Integrator"
+	Type			Integrator
+	_blkref			[0, -1, 7]
+	NumDataInputPorts	1
+	DataInputPort {
+	}
+	DataOutputPort {
+	}
+	Parameter {
+	  Name			  "InitialCondition"
+	  _idx			  4
+	}
+	NumParameters		1
+	NumContStates		1
+	NumDerivatives		1
+	ContState {
+	  Dimensions		  [1, 4]
+	  _idx			  1
+	}
+	Derivative {
+	  Dimensions		  [1, 4]
+	  _idx			  1
+	}
+      }
+      Block {
+	Name			"<S1>/Sum"
+	SLName			"Sum"
+	Type			Sum
+	_blkref			[0, -1, 7]
+	NumDataInputPorts	3
+	DataInputPort {
+	}
+	DataInputPort {
+	}
+	DataInputPort {
+	}
+	DataOutputPort {
+	}
+      }
+    }
+    Subsystem {
+      Name		      "<Root>/Subsystem"
+      SLName		      "Subsystem"
+      SubsystemBlockIndex     [0, 1]
+      NVOwnerSysIdx	      0
+      NumBlocks		      9
+      Block {
+	Name			"<S2>/Integrator"
+	SLName			"Integrator"
+	Type			Integrator
+	_blkref			[0, -1, 7]
+	NumDataInputPorts	1
+	DataInputPort {
+	}
+	DataOutputPort {
+	}
+	Parameter {
+	  Name			  "InitialCondition"
+	  _idx			  0
+	}
+	NumParameters		1
+	NumContStates		1
+	NumDerivatives		1
+	ContState {
+	  Dimensions		  [1, 4]
+	  _idx			  0
+	}
+	Derivative {
+	  Dimensions		  [1, 4]
+	  _idx			  0
+	}
+      }
+      Block {
+	Name			"<S2>/Integrator1"
+	SLName			"Integrator1"
+	Type			Integrator
+	_blkref			[0, -1, 7]
+	NumDataInputPorts	1
+	DataInputPort {
+	}
+	DataOutputPort {
+	}
+	Parameter {
+	  Name			  "InitialCondition"
+	  _idx			  6
+	}
+	NumParameters		1
+	NumContStates		1
+	NumDerivatives		1
+	ContState {
+	  Dimensions		  [1, 4]
+	  _idx			  2
+	}
+	Derivative {
+	  Dimensions		  [1, 4]
+	  _idx			  2
+	}
+      }
+      Block {
+	Name			"<S2>/G"
+	SLName			"G"
+	Type			MATLABFcn
+	_blkref			[0, -1, 4]
+	NumDataInputPorts	1
+	DataInputPort {
+	}
+	DataOutputPort {
+	}
+      }
+      Block {
+	Name			"<S2>/M"
+	SLName			"M"
+	Type			MATLABFcn
+	_blkref			[0, -1, 5]
+	NumDataInputPorts	1
+	DataInputPort {
+	}
+	DataOutputPort {
+	}
+      }
+      Block {
+	Name			"<S2>/V"
+	SLName			"V"
+	Type			MATLABFcn
+	_blkref			[0, -1, 6]
+	NumDataInputPorts	1
+	DataInputPort {
+	}
+	DataOutputPort {
+	}
+      }
+      Block {
+	Name			"<S2>/Matrix Multiply"
+	SLName			"Matrix Multiply"
+	Type			Product
+	_blkref			[0, -1, 7]
+	NumDataInputPorts	2
+	DataInputPort {
+	}
+	DataInputPort {
+	}
+	DataOutputPort {
+	}
+      }
+      Block {
+	Name			"<S2>/Scope"
+	SLName			"Scope"
+	Type			Scope
+	_blkref			[0, -1, 3]
+	NumDataInputPorts	1
+	NumDataOutputPorts	0
+	DataInputPort {
+	}
+	NumDiscStates		0
+	DWork {
+	  _idx			  2
+	}
+	NumDWorks		1
+      }
+      Block {
+	Name			"<S2>/Pseudoinverse"
+	SLName			"Pseudoinverse"
+	Type			"S-Function"
+	_blkref			[0, -1, 7]
+	NumDataInputPorts	1
+	DataInputPort {
+	}
+	DataOutputPort {
+	}
+	NumDiscStates		0
+	DWork {
+	  Dimensions		  [1, 16]
+	  _idx			  3
+	}
+	DWork {
+	  Dimensions		  [1, 4]
+	  _idx			  4
+	}
+	DWork {
+	  Dimensions		  [1, 4]
+	  _idx			  5
+	}
+	DWork {
+	  Dimensions		  [1, 4]
+	  _idx			  6
+	}
+	DWork {
+	  Dimensions		  [1, 16]
+	  _idx			  7
+	}
+	DWork {
+	  Dimensions		  [1, 16]
+	  _idx			  8
+	}
+	NumDWorks		6
+      }
+      Block {
+	Name			"<S2>/Sum"
+	SLName			"Sum"
+	Type			Sum
+	_blkref			[0, -1, 7]
+	NumDataInputPorts	3
+	DataInputPort {
+	}
+	DataInputPort {
+	}
+	DataInputPort {
+	}
+	DataOutputPort {
+	}
+      }
+    }
+    NumSubsystems	    3
+  }
+  ExternalInputs {
+    ExternalInputDefaults {
+      RecordType	      ExternalInput
+      MemoryMapIdx	      [-1,-1,-1]
+      HasObject		      0
+      CGTypeIdx		      0
+      Invariant		      no
+      Interpolation	      1
+      RequiresGlobalAccess    yes
+      FrameData		      no
+      DirectFeedThrough	      yes
+      SigLabel		      ""
+      OrigIdentifier	      ""
+      StorageClass	      Auto
+      CustomStorageClassVersion	0
+      TestPoint		      no
+      StorageTypeQualifier    ""
+      InitialValue	      []
+      Padding		      0
+      ContextTID	      0
+      SysNum		      0
+    }
+    NumExternalInputs	    0
+  }
+  ExternalOutputs {
+    ExternalOutputDefaults {
+      RecordType	      ExternalOutput
+      CGTypeIdx		      0
+      MemoryMapIdx	      [-1,-1,-1]
+      SigLabel		      ""
+      HasObject		      0
+      FrameData		      no
+      RequiresGlobalAccess    yes
+      Padding		      0
+    }
+    NumExternalOutputs	    0
+  }
+  BlockOutputs {
+    GlobalBlockOutputDefaults {
+      RecordType	      BlockOutput
+      SigSrc		      []
+      GrSrc		      [-1, -1, -1, -1]
+      IsSynthesized	      0
+      OwnerSysIdx	      [-1,-1]
+      MemoryMapIdx	      [-1,-1,-1]
+      HasObject		      0
+      TestPoint		      no
+      ConstExpr		      0
+      OrigIdentifier	      ""
+      StorageClass	      "Auto"
+      CustomStorageClassVersion	0
+      StorageTypeQualifier    ""
+      DrivesModelRefRootOutport	no
+      DrivesRootOutport	      no
+      IdentifierScope	      "top-level"
+      Invariant		      no
+      DeclareAsPointer	      no
+      InitialValue	      []
+      CGTypeIdx		      0
+      SigLabel		      ""
+      SigConnected	      all
+      NumReusedBlockOutputs   0
+      Padding		      0
+      FrameData		      no
+      TID		      0
+      SysNum		      0
+      DeclareInScope	      0
+    }
+    LocalBlockOutputDefaults {
+      RecordType	      BlockOutput
+      SigSrc		      []
+      GrSrc		      [-1, -1, -1, -1]
+      IsSynthesized	      0
+      OwnerSysIdx	      [-1,-1]
+      MemoryMapIdx	      [-1,-1,-1]
+      HasObject		      0
+      TestPoint		      no
+      ConstExpr		      0
+      OrigIdentifier	      ""
+      StorageClass	      "Auto"
+      CustomStorageClassVersion	0
+      StorageTypeQualifier    ""
+      DrivesModelRefRootOutport	no
+      DrivesRootOutport	      no
+      IdentifierScope	      "top-level"
+      Invariant		      no
+      DeclareAsPointer	      no
+      InitialValue	      []
+      CGTypeIdx		      0
+      SigLabel		      ""
+      SigConnected	      all
+      NumReusedBlockOutputs   0
+      Padding		      0
+      FrameData		      no
+      TID		      0
+      SysNum		      0
+      DeclareInInitializeFcnScope 0
+      DeclareInStartFcnScope  0
+      DeclareInOutputFcnScope 0
+      DeclareInUpdateFcnScope 0
+      DeclareInDerivativeFcnScope 0
+      DeclareInZeroCrossingFcnScope 0
+    }
+    ExternalBlockOutputDefaults {
+      RecordType	      BlockOutput
+      SigSrc		      []
+      GrSrc		      [-1, -1, -1, -1]
+      IsSynthesized	      0
+      OwnerSysIdx	      [-1,-1]
+      MemoryMapIdx	      [-1,-1,-1]
+      HasObject		      0
+      TestPoint		      no
+      ConstExpr		      0
+      OrigIdentifier	      ""
+      StorageClass	      "Auto"
+      CustomStorageClassVersion	0
+      StorageTypeQualifier    ""
+      DrivesModelRefRootOutport	no
+      DrivesRootOutport	      no
+      IdentifierScope	      "top-level"
+      Invariant		      no
+      DeclareAsPointer	      no
+      InitialValue	      []
+      CGTypeIdx		      0
+      SigLabel		      ""
+      SigConnected	      all
+      NumReusedBlockOutputs   0
+      Padding		      0
+      FrameData		      no
+      TID		      0
+      SysNum		      0
+    }
+    ConstBlockOutputDefaults {
+      RecordType	      BlockOutput
+      SigSrc		      []
+      GrSrc		      [-1, -1, -1, -1]
+      IsSynthesized	      0
+      OwnerSysIdx	      [-1,-1]
+      MemoryMapIdx	      [-1,-1,-1]
+      HasObject		      0
+      TestPoint		      no
+      ConstExpr		      0
+      OrigIdentifier	      ""
+      StorageClass	      "Auto"
+      CustomStorageClassVersion	0
+      StorageTypeQualifier    ""
+      DrivesModelRefRootOutport	no
+      DrivesRootOutport	      no
+      IdentifierScope	      "top-level"
+      RequiredInConstBlockIO  0
+      DoNotConstify	      0
+      Invariant		      yes
+      DeclareAsPointer	      no
+      InitialValue	      []
+      ConstantValueOutputChecksum []
+      CGTypeIdx		      0
+      SigLabel		      ""
+      SigConnected	      all
+      NumReusedBlockOutputs   0
+      Padding		      0
+      FrameData		      no
+      TID		      constant
+      SysNum		      0
+    }
+    ConstOutputExprDefaults {
+      RecordType	      BlockOutput
+      SigSrc		      []
+      GrSrc		      [-1, -1, -1, -1]
+      IsSynthesized	      0
+      OwnerSysIdx	      [-1,-1]
+      MemoryMapIdx	      [-1,-1,-1]
+      HasObject		      0
+      TestPoint		      no
+      ConstExpr		      0
+      OrigIdentifier	      ""
+      StorageClass	      "Auto"
+      CustomStorageClassVersion	0
+      StorageTypeQualifier    ""
+      DrivesModelRefRootOutport	no
+      DrivesRootOutport	      no
+      IdentifierScope	      "top-level"
+      Invariant		      yes
+      DeclareAsPointer	      no
+      InitialValue	      []
+      CGTypeIdx		      0
+      SigLabel		      ""
+      SigConnected	      all
+      NumReusedBlockOutputs   0
+      Padding		      0
+      FrameData		      no
+      TID		      0
+      SysNum		      0
+    }
+    NumGlobalBlockOutputs   5
+    NumLocalBlockOutputs    7
+    NumExternalBlockOutputs 0
+    NumConstBlockOutputs    0
+    NumConstOutputExpr	    1
+    GlobalBlockOutput {
+      Identifier	      "Integrator"
+      VarGroupIdx	      [0, 0]
+      CGTypeIdx		      17
+      LogicalSrc	      B0
+      TestPoint		      yes
+      GrSrc		      [2, 0, 0, -1]
+      SigSrc		      [0, -1, 7, 0]
+    }
+    GlobalBlockOutput {
+      Identifier	      "DerivativeGain"
+      VarGroupIdx	      [0, 1]
+      CGTypeIdx		      17
+      LogicalSrc	      B1
+      GrSrc		      [1, 1, 0, -1]
+      SigSrc		      [0, -1, 7, 1]
+    }
+    GlobalBlockOutput {
+      Identifier	      "IntegralGain"
+      VarGroupIdx	      [0, 2]
+      CGTypeIdx		      17
+      LogicalSrc	      B2
+      GrSrc		      [1, 2, 0, -1]
+      SigSrc		      [0, -1, 7, 2]
+    }
+    GlobalBlockOutput {
+      Identifier	      "Integrator1"
+      VarGroupIdx	      [0, 3]
+      CGTypeIdx		      17
+      LogicalSrc	      B3
+      GrSrc		      [2, 1, 0, -1]
+      SigSrc		      [0, -1, 7, 3]
+    }
+    GlobalBlockOutput {
+      Identifier	      "MatrixMultiply"
+      VarGroupIdx	      [0, 4]
+      CGTypeIdx		      17
+      LogicalSrc	      B4
+      GrSrc		      [2, 5, 0, -1]
+      SigSrc		      [0, -1, 7, 4]
+    }
+    LocalBlockOutput {
+      Identifier	      "rtb_ProportionalGain"
+      SysCsIdx		      [0, -1]
+      CGTypeIdx		      17
+      LogicalSrc	      B5
+      SigDeclSysIdx	      0
+      GrSrc		      [1, 3, 0, -1]
+      SigSrc		      [0, -1, 7, 3]
+    }
+    LocalBlockOutput {
+      Identifier	      "rtb_Sum"
+      SysCsIdx		      [0, -1]
+      CGTypeIdx		      17
+      LogicalSrc	      B6
+      SigDeclSysIdx	      0
+      GrSrc		      [1, 5, 0, -1]
+      SigSrc		      [0, -1, 7, 3]
+    }
+    LocalBlockOutput {
+      Identifier	      "rtb_Pseudoinverse"
+      SysCsIdx		      [0, -1]
+      CGTypeIdx		      19
+      LogicalSrc	      B7
+      SigDeclSysIdx	      0
+      GrSrc		      [2, 7, 0, -1]
+      SigSrc		      [0, -1, 7, 4]
+    }
+    LocalBlockOutput {
+      Identifier	      "rtb_Sum_k"
+      SysCsIdx		      [0, -1]
+      CGTypeIdx		      17
+      LogicalSrc	      B8
+      SigDeclSysIdx	      0
+      GrSrc		      [0, 4, 0, -1]
+      SigSrc		      [0, -1, 7, 1]
+    }
+    LocalBlockOutput {
+      Identifier	      "rtb_M"
+      SysCsIdx		      [0, -1]
+      CGTypeIdx		      19
+      LogicalSrc	      B9
+      SigDeclSysIdx	      0
+      GrSrc		      [2, 3, 0, -1]
+      SigSrc		      [0, -1, 5, 0]
+    }
+    LocalBlockOutput {
+      Identifier	      "rtb_V"
+      SysCsIdx		      [0, -1]
+      CGTypeIdx		      17
+      LogicalSrc	      B10
+      SigDeclSysIdx	      0
+      GrSrc		      [2, 4, 0, -1]
+      SigSrc		      [0, -1, 6, 0]
+      NumReusedBlockOutputs   2
+    }
+    LocalBlockOutput {
+      Identifier	      "rtb_Sum_kj"
+      SysCsIdx		      [0, -1]
+      CGTypeIdx		      17
+      LogicalSrc	      B11
+      SigDeclSysIdx	      0
+      GrSrc		      [2, 8, 0, -1]
+      SigSrc		      [0, -1, 7, 4]
+      NumReusedBlockOutputs   3
+    }
+    ConstOutputExpr {
+      Identifier	      "desiredjoint"
+      SysCsIdx		      [0, -1]
+      CGTypeIdx		      17
+      TID		      1
+      LogicalSrc	      B12
+      ConstExpr		      1
+      GrSrc		      [0, 2, 0, -1]
+      SigSrc		      [0, -1, 1, 0]
+    }
+  }
+  DWorks {
+    DWorkDefaults {
+      RecordType	      DWork
+      MemoryMapIdx	      [-1,-1,-1]
+      OrigIdentifier	      ""
+      LogStateName	      ""
+      StorageClass	      "Auto"
+      CustomStorageClassVersion	0
+      StorageTypeQualifier    ""
+      OptimizedAwayInTLC      0
+      GlobalDSM		      0
+      DeclareInFcnScope	      0
+      IsLocalScratchDWork     0
+      HasObject		      0
+      CGTypeIdx		      0
+      DeclareAsPointer	      no
+      Origin		      "DWORK"
+      UsedAs		      "DWORK"
+      InitialValue	      []
+      Padding		      0
+      BitFieldWidth	      0
+      GrSrc		      [-1, -1]
+      SFcnWrapperMode	      "none"
+      SFcnWrapperDSMName      ""
+      TID		      0
+      MdlRefBlkOutputDimSize  0
+      DWorkForDimSize	      0
+    }
+    NumDWorks		    9
+    NumNonLocalDWorks	    3
+    DWork {
+      VarGroupIdx	      [1, 0]
+      CGTypeIdx		      18
+      Identifier	      "IdealDerivative_RWORK"
+      Name		      "RWORK"
+      LogicalSrc	      D0
+      Origin		      "RWORK"
+      GrSrc		      [1, 0]
+      SigSrc		      [0, -1, 2, 0]
+    }
+    DWork {
+      VarGroupIdx	      [1, 1]
+      CGTypeIdx		      11
+      Identifier	      "Scope_PWORK"
+      Name		      "PWORK"
+      LogicalSrc	      D1
+      Origin		      "PWORK"
+      GrSrc		      [0, 3]
+      SigSrc		      [0, -1, 0, 0]
+      TID		      1
+    }
+    DWork {
+      VarGroupIdx	      [1, 2]
+      CGTypeIdx		      11
+      Identifier	      "Scope_PWORK_k"
+      Name		      "PWORK"
+      LogicalSrc	      D2
+      Origin		      "PWORK"
+      GrSrc		      [2, 6]
+      SigSrc		      [0, -1, 3, 0]
+      TID		      1
+    }
+    DWork {
+      SysCsIdx		      [0, -1]
+      CGTypeIdx		      21
+      Identifier	      "Pseudoinverse_X"
+      Name		      "X"
+      LogicalSrc	      D3
+      UsedAs		      "SCRATCH"
+      GrSrc		      [2, 7]
+      SigSrc		      [0, -1, 7, 0]
+      IsLocalScratchDWork     1
+    }
+    DWork {
+      SysCsIdx		      [0, -1]
+      CGTypeIdx		      17
+      Identifier	      "Pseudoinverse_E"
+      Name		      "E"
+      LogicalSrc	      D4
+      UsedAs		      "SCRATCH"
+      GrSrc		      [2, 7]
+      SigSrc		      [0, -1, 7, 1]
+      IsLocalScratchDWork     1
+    }
+    DWork {
+      SysCsIdx		      [0, -1]
+      CGTypeIdx		      17
+      Identifier	      "Pseudoinverse_WORK"
+      Name		      "WORK"
+      LogicalSrc	      D5
+      UsedAs		      "SCRATCH"
+      GrSrc		      [2, 7]
+      SigSrc		      [0, -1, 7, 2]
+      IsLocalScratchDWork     1
+    }
+    DWork {
+      SysCsIdx		      [0, -1]
+      CGTypeIdx		      17
+      Identifier	      "Pseudoinverse_S"
+      Name		      "S"
+      LogicalSrc	      D6
+      UsedAs		      "SCRATCH"
+      GrSrc		      [2, 7]
+      SigSrc		      [0, -1, 7, 3]
+      IsLocalScratchDWork     1
+    }
+    DWork {
+      SysCsIdx		      [0, -1]
+      CGTypeIdx		      21
+      Identifier	      "Pseudoinverse_U"
+      Name		      "U"
+      LogicalSrc	      D7
+      UsedAs		      "SCRATCH"
+      GrSrc		      [2, 7]
+      SigSrc		      [0, -1, 7, 4]
+      IsLocalScratchDWork     1
+    }
+    DWork {
+      SysCsIdx		      [0, -1]
+      CGTypeIdx		      21
+      Identifier	      "Pseudoinverse_V"
+      Name		      "V"
+      LogicalSrc	      D8
+      UsedAs		      "SCRATCH"
+      GrSrc		      [2, 7]
+      SigSrc		      [0, -1, 7, 5]
+      IsLocalScratchDWork     1
+    }
+    NumSFcnWrapperDWorks    0
+  }
+  SubsystemRanBC {
+    SysRanDWork		    [-1]
+    ContextSysIdx	    [0]
+  }
+  ContStates {
+    ContStateDefaults {
+      RecordType	      ContState
+      Width		      1
+      StartIndex	      -1
+      InitialValue	      [0.0]
+      StorageClass	      "Auto"
+      HasObject		      0
+      MemoryMapIdx	      [-1, -1, -1]
+      SigSrc		      [-1, -1, -1]
+      DerivativeMemoryMapIdx  [-1, -1, -1]
+    }
+    NumContStates	    3
+    ContState {
+      VarGroupIdx	      [3, 4, 5, 0]
+      Identifier	      "Integrator_CSTATE"
+      Width		      4
+      StartIndex	      0
+      GrSrc		      [2, 0]
+      SigSrc		      [0, -1, 7]
+      Partitions {
+	NumPartitions		1
+	Partition {
+	  Name			  ""
+	  PathAlias		  ""
+	  Width			  4
+	}
+      }
+    }
+    ContState {
+      VarGroupIdx	      [3, 4, 5, 1]
+      Identifier	      "Integrator_CSTATE_m"
+      Width		      4
+      StartIndex	      4
+      GrSrc		      [1, 4]
+      SigSrc		      [0, -1, 7]
+      Partitions {
+	NumPartitions		1
+	Partition {
+	  Name			  ""
+	  PathAlias		  ""
+	  Width			  4
+	}
+      }
+    }
+    ContState {
+      VarGroupIdx	      [3, 4, 5, 2]
+      Identifier	      "Integrator1_CSTATE"
+      Width		      4
+      StartIndex	      8
+      GrSrc		      [2, 1]
+      SigSrc		      [0, -1, 7]
+      Partitions {
+	NumPartitions		1
+	Partition {
+	  Name			  ""
+	  PathAlias		  ""
+	  Width			  4
+	}
+      }
+    }
+  }
+  MassMatrices {
+    NumMassMatrices	    0
+  }
+  ZcRec {
+    NumBlkZcRecs	    0
+  }
+  ExprCommentInfoDefaults {
+    SysIdxList		    []
+    BlkIdxList		    []
+    PortIdxList		    []
+  }
+  ExprCommentSrcIdxDefaults {
+    SysIdx		    -1
+    BlkIdx		    -1
+    PortIdx		    -1
+  }
+  BlockDefaults {
+    UserDefinedRWork	    0
+    UserDefinedIWork	    0
+    UserDefinedPWork	    0
+    NumRWorkDefines	    -1
+    NumIWorkDefines	    -1
+    NumPWorkDefines	    -1
+    RecordType		    Block
+    InMask		    no
+    UseTLC		    0
+    DeletedInIR		    0
+    AlgebraicLoopId	    0
+    PortBasedSampleTimes    no
+    ContStates		    [0,0,0]
+    ModeVector		    [0,-1]
+    RWork		    [0,-1]
+    IWork		    [0,-1]
+    PWork		    [0,-1]
+    DiscStates		    [0,-1]
+    MassMatrixPr	    [0,-1]
+    NumDWork		    0
+    NumNonsampledZCs	    0
+    ZCEvents		    [0,0]
+    NumBlkZcRecs	    0
+    RollRegions		    []
+    NumDataInputPorts	    0
+    NumControlInputPorts    0
+    NumDataOutputPorts	    1
+    Parameters		    [0,0]
+    NumParameterGroups	    0
+    Description		    []
+    ReducedBlocksConnected  []
+    TLCExprCompliant	    0
+    CustomStorageClassCompliant	1
+    EnforceIntegerDowncast  1
+    HaveBlockComment	    0
+    InFixptMode		    0
+    GrSrc		    [-1, -1]
+    NeedOutputsFcnInMdlStart 0
+    AsyncSfcn		    0
+  }
+  OutportParamSettingsDefaults {
+    VirtualizableRoot	    no
+    BusObject		    ""
+    OutputAsStructure	    0
+    InputContiguous	    yes
+    SpecifyIC		    no
+  }
+  SubsystemParamSettingsDefaults {
+    EnableOutputScope	    no
+    SystemContStates	    [0, 0]
+    NumNonsampledZCs	    0
+    BlkZcRecOffset	    0
+    SingleRate		    yes
+    MinorStepGuard	    no
+    CanBeDisabled	    no
+  }
+  ASTNodeDefaults {
+    IsNonTerminal	    0
+  }
+  ParameterDefaults {
+    RecordType		    BlockParameter
+    MdlPrmIdx		    -1
+    ArgDefIdx		    -1
+    MemoryMapIdx	    [-1,-1,-1]
+    OriginalDataTypeIdx	    0
+    CGTypeIdx		    29
+    Tunable		    on
+    OrigIdentifier	    ""
+    StorageClass	    Auto
+    NeedParenthesis	    0
+    StringTransformed	    ""
+    Value		    [0.0]
+  }
+  DataInputPortDefaults {
+    RecordType		    DataInputPort
+    SignalSrc		    []
+    SignalOffset	    [0]
+    CGTypeIdx		    0
+    SystemToCall	    [-1, -1]
+    FrameData		    no
+    RecurseOnInput	    0
+    HaveGround		    no
+    BufferDstPort	    -1
+    AllowScalarExpandedExpr 0
+  }
+  HiddenDataInputPortDefaults {
+    RecordType		    DataInputPort
+    SignalSrc		    []
+    SignalOffset	    [0]
+    CGTypeIdx		    0
+    SystemToCall	    [-1, -1]
+    FrameData		    no
+    RecurseOnInput	    0
+    HaveGround		    no
+    BufferDstPort	    -1
+    AllowScalarExpandedExpr 0
+  }
+  ControlInputPortDefaults {
+    RecordType		    ControlInputPort
+    SignalSrc		    []
+    SignalOffset	    [0]
+    CGTypeIdx		    0
+    FrameData		    no
+    RecurseOnInput	    0
+    HaveGround		    no
+    BufferDstPort	    -1
+  }
+  HiddenControlInputPortDefaults {
+    RecordType		    ControlInputPort
+    SignalSrc		    []
+    SignalOffset	    [0]
+    CGTypeIdx		    0
+    FrameData		    no
+    RecurseOnInput	    0
+    HaveGround		    no
+    BufferDstPort	    -1
+  }
+  DataOutputPortDefaults {
+    RecordType		    DataOutputPort
+    SignalSrc		    []
+    SignalOffset	    [0]
+    CGTypeIdx		    0
+    OutputExpression	    0
+    TrivialOutputExpression 0
+    FrameData		    no
+    SystemToCall	    [-1, -1]
+  }
+  OpaqueBlockMethodeDefaults {
+    HasInstanceSetup	    0
+    HasStart		    0
+    HasVirtualOutportStart  0
+    HasInitializeConditions 0
+    HasOutputs		    0
+    HasUpdate		    0
+    HasDerivatives	    0
+    HasProjection	    0
+    HasForcingFunction	    0
+    HasMassMatrix	    0
+    HasZeroCrossings	    0
+    HasEnable		    0
+    HasDisable		    0
+    HasFinalizeDims	    0
+    HasSetDims		    0
+    HasTerminate	    0
+    HasDeadCode		    0
+    HasConstCode	    0
+  }
+  CanonicalInputArgDefaults {
+    SignalSrc		    []
+    SignalOffset	    [0]
+    CGTypeIdx		    0
+    SrcIsPointerToArray	    no
+    DeclareAsPointer	    no
+  }
+  CanonicalInputArgDefDefaults {
+    Identifier		    ""
+    SignalSrc		    []
+    SignalOffset	    [0]
+    CGTypeIdx		    0
+    StorageClass	    Auto
+    DeclareAsPointer	    no
+  }
+  CanonicalOutputArgDefaults {
+    SignalSrc		    []
+    SignalOffset	    [0]
+    CGTypeIdx		    0
+  }
+  CanonicalOutputArgDefDefaults {
+    Identifier		    ""
+    SignalSrc		    []
+    SignalOffset	    [0]
+    CGTypeIdx		    0
+    StorageClass	    Auto
+    PassByReturn	    no
+    DeclareAsPointer	    yes
+  }
+  CanonicalDWorkArgDefaults {
+    SignalSrc		    []
+  }
+  CanonicalDWorkArgDefDefaults {
+    FirstSignalSrc	    []
+    IsCanonicalDimSizeDWork 0
+    DeclareAsPointer	    yes
+  }
+  ModelParameters {
+    NumParameters	    7
+    NumInrtP		    7
+    NumConstPrmsWithInit    0
+    NumConstPrms	    0
+    NumExportedGlobal	    0
+    NumImportedExtern	    0
+    NumImportedExternPointer 0
+    NumCustomStorageClass   0
+    NumInMdlRefGlobal	    0
+    ParameterDefaults {
+      RecordType	      ModelParameter
+      MemoryMapIdx	      [-1,-1,-1]
+      HasObject		      0
+      OriginalDataTypeIdx     0
+      CGTypeIdx		      29
+      OriginalCGTypeIdx	      29
+      Tunable		      yes
+      RollVarDeclared	      0
+      Transformed	      no
+      OrigIdentifier	      ""
+      StorageClass	      "Auto"
+      CustomStorageClassVersion	0
+      TypeQualifier	      ""
+      IsSfcnSizePrm	      0
+      SystemScoping	      [0, 0]
+      Value		      [0.0]
+      Padding		      0
+    }
+    Parameter {
+      Identifier	      "Integrator_IC"
+      LogicalSrc	      P0
+      SystemScoping	      [0, 1]
+      ReferencedBy	      Matrix(1,4)
+[[0, -1, 7, 0];]
+      GraphicalRef	      Matrix(1,2)
+[[2, 0];]
+      OwnerSysIdx	      [0, -1]
+    }
+    Parameter {
+      Identifier	      "desiredjoint_Value"
+      LogicalSrc	      P1
+      Value		      Vector(4)
+[0.52359877559829882, 0.26179938779914941, 0.26179938779914941, ...
+1.0471975511965976]
+      CGTypeIdx		      30
+      ReferencedBy	      Matrix(1,4)
+[[0, -1, 1, 0];]
+      GraphicalRef	      Matrix(1,2)
+[[0, 2];]
+      OwnerSysIdx	      [0, -1]
+    }
+    Parameter {
+      Identifier	      "DerivativeGain_Gain"
+      LogicalSrc	      P2
+      Value		      [50.0, 35.0, 35.0, 30.0]
+      CGTypeIdx		      30
+      ReferencedBy	      Matrix(1,4)
+[[0, -1, 7, 2];]
+      GraphicalRef	      Matrix(1,2)
+[[1, 1];]
+      OwnerSysIdx	      [0, -1]
+    }
+    Parameter {
+      Identifier	      "IntegralGain_Gain"
+      LogicalSrc	      P3
+      Value		      [0.0, 0.0, 0.0, 0.0]
+      CGTypeIdx		      30
+      ReferencedBy	      Matrix(1,4)
+[[0, -1, 7, 3];]
+      GraphicalRef	      Matrix(1,2)
+[[1, 2];]
+      OwnerSysIdx	      [0, -1]
+    }
+    Parameter {
+      Identifier	      "Integrator_IC_a"
+      LogicalSrc	      P4
+      ReferencedBy	      Matrix(1,4)
+[[0, -1, 7, 4];]
+      GraphicalRef	      Matrix(1,2)
+[[1, 4];]
+      OwnerSysIdx	      [0, -1]
+    }
+    Parameter {
+      Identifier	      "ProportionalGain_Gain"
+      LogicalSrc	      P5
+      Value		      [600.0, 500.0, 400.0, 400.0]
+      CGTypeIdx		      30
+      ReferencedBy	      Matrix(1,4)
+[[0, -1, 7, 5];]
+      GraphicalRef	      Matrix(1,2)
+[[1, 3];]
+      OwnerSysIdx	      [0, -1]
+    }
+    Parameter {
+      Identifier	      "Integrator1_IC"
+      LogicalSrc	      P6
+      ReferencedBy	      Matrix(1,4)
+[[0, -1, 7, 6];]
+      GraphicalRef	      Matrix(1,2)
+[[2, 1];]
+      OwnerSysIdx	      [0, -1]
+    }
+  }
+  InsertedHiddenBlocks {
+    NumInsertedHiddenBlocks 0
+  }
+  CustomStorageClasses {
+    NumCustomStorageClasses 0
+  }
+  DataObjectUsage {
+    NumFiles		    [6]
+    File {
+      Name		      "robot_4DOF_jointspace"
+      Type		      "source"
+      IsCustom		      "no"
+    }
+    File {
+      Name		      "robot_4DOF_jointspace"
+      Type		      "header"
+      IsCustom		      "no"
+    }
+    File {
+      Name		      "robot_4DOF_jointspace_data"
+      Type		      "source"
+      IsCustom		      "no"
+    }
+    File {
+      Name		      "robot_4DOF_jointspace_types"
+      Type		      "header"
+      IsCustom		      "no"
+    }
+    File {
+      Name		      "robot_4DOF_jointspace_private"
+      Type		      "header"
+      IsCustom		      "no"
+    }
+    File {
+      Name		      "robot_4DOF_jointspace_sf"
+      Type		      "header"
+      IsCustom		      "no"
+    }
+    NumDataObjects	    [0]
+    NumSignalObjects	    [0]
+    FirstSignalObjectIdx    [0]
+    NumParameterObjects	    [0]
+    FirstParameterObjectIdx [0]
+    NumStateObjects	    [0]
+    FirstStateObjectIdx	    [0]
+    DataObjectSymbols {
+    }
+  }
+  NumSubsystems		  2
+  Subsystem {
+    Name		    "<Root>/PID Controller"
+  }
+  Subsystem {
+    Name		    "<Root>/Subsystem"
+  }
+  InterfaceDefaults {
+    NumCanonicalPrmArgDefs  0
+    NumCanonicalDWorkArgDefs 0
+  }
+  InstanceDefaults {
+    InitializeHeader	    ""
+    InitializeBody	    ""
+    InitializeTrailer	    ""
+    InitializeCacheAssert   0
+    StartHeader		    ""
+    StartBody		    ""
+    StartTrailer	    ""
+    StartCacheAssert	    0
+    TerminateHeader	    ""
+    TerminateBody	    ""
+    TerminateTrailer	    ""
+    TerminateCacheAssert    0
+    OutputHeader	    ""
+    OutputBody		    ""
+    OutputTrailer	    ""
+    OutputCacheAssert	    0
+    UpdateHeader	    ""
+    UpdateBody		    ""
+    UpdateTrailer	    ""
+    UpdateCacheAssert	    0
+    DerivativeHeader	    ""
+    DerivativeBody	    ""
+    DerivativeTrailer	    ""
+    DerivativeCacheAssert   0
+    ProjectionHeader	    ""
+    ProjectionBody	    ""
+    ProjectionTrailer	    ""
+    ProjectionCacheAssert   0
+    ForcingFunctionHeader   ""
+    ForcingFunctionBody	    ""
+    ForcingFunctionTrailer  ""
+    ForcingFunctionCacheAssert 0
+    MassMatrixHeader	    ""
+    MassMatrixBody	    ""
+    MassMatrixTrailer	    ""
+    MassMatrixCacheAssert   0
+    InitSystemMatricesHeader ""
+    InitSystemMatricesBody  ""
+    InitSystemMatricesTrailer ""
+    InitSystemMatricesCacheAssert 0
+    ZeroCrossingHeader	    ""
+    ZeroCrossingBody	    ""
+    ZeroCrossingTrailer	    ""
+    ZeroCrossingCacheAssert 0
+    EnableHeader	    ""
+    EnableBody		    ""
+    EnableTrailer	    ""
+    EnableCacheAssert	    0
+    DisableHeader	    ""
+    DisableBody		    ""
+    DisableTrailer	    ""
+    DisableCacheAssert	    0
+    FinalizeDimsHeader	    ""
+    FinalizeDimsBody	    ""
+    FinalizeDimsTrailer	    ""
+    FinalizeDimsCacheAssert 0
+    SetDimsHeader	    ""
+    SetDimsBody		    ""
+    SetDimsTrailer	    ""
+    SetDimsCacheAssert	    0
+    CachedSubFunctions	    ""
+    CachedStartFcn	    ""
+    CachedEnableFcn	    ""
+    CachedFinalizeDimsFcn   ""
+    CachedSetDimsFcn	    ""
+    CachedInitializeFcn	    ""
+    CachedOutputFcn	    ""
+    CachedUpdateFcn	    ""
+    CachedDerivativeFcn	    ""
+    CachedProjectionFcn	    ""
+    CachedFinalizeDimsSSVars ""
+    CachedSetDimsSSVars	    ""
+    CachedForcingFunctionFcn ""
+    CachedMassMatrixFcn	    ""
+    CachedInitSystemMatricesFcn	""
+    CachedZeroCrossingFcn   ""
+    CachedDisableFcn	    ""
+    CachedTerminateFcn	    ""
+    CachedStartSSVars	    ""
+    CachedEnableSSVars	    ""
+    CachedInitializeSSVars  ""
+    CachedOutputSSVars	    ""
+    CachedOutputUpdateSSVars ""
+    CachedUpdateSSVars	    ""
+    CachedDerivativeSSVars  ""
+    CachedProjectionSSVars  ""
+    CachedForcingFunctionSSVars	""
+    CachedMassMatrixSSVars  ""
+    CachedInitSystemMatricesSSVars ""
+    CachedZeroCrossingSSVars ""
+    CachedDisableSSVars	    ""
+    CachedTerminateSSVars   ""
+    CachedStartGlobalVars   ""
+    CachedEnableGlobalVars  ""
+    CachedInitializeGlobalVars ""
+    CachedOutputGlobalVars  ""
+    CachedOutputUpdateGlobalVars ""
+    CachedUpdateGlobalVars  ""
+    CachedDerivativeGlobalVars ""
+    CachedProjectionGlobalVars ""
+    CachedForcingFunctionGlobalVars ""
+    CachedMassMatrixGlobalVars ""
+    CachedInitSystemMatricesGlobalVars ""
+    CachedZeroCrossingGlobalVars ""
+    CachedDisableGlobalVars ""
+    CachedTerminateGlobalVars ""
+    CachedOutputLocalBO	    ""
+    CachedOutputUpdateLocalBO ""
+    CachedStartProfileDeclsCode	""
+    CachedStartProfileStartCode	""
+    CachedStartProfileEndCode ""
+    CachedOutputProfileDeclsCode ""
+    CachedOutputProfileStartCode ""
+    CachedOutputProfileEndCode ""
+    CachedOutputUpdateProfileDeclsCode ""
+    CachedOutputUpdateProfileStartCode ""
+    CachedOutputUpdateProfileEndCode ""
+    CachedUpdateProfileDeclsCode ""
+    CachedUpdateProfileStartCode ""
+    CachedUpdateProfileEndCode ""
+    CachedDerivativeProfileDeclsCode ""
+    CachedDerivativeProfileStartCode ""
+    CachedDerivativeProfileEndCode ""
+    CachedProjectionProfileDeclsCode ""
+    CachedProjectionProfileStartCode ""
+    CachedProjectionProfileEndCode ""
+    CachedForcingFunctionProfileDeclsCode ""
+    CachedForcingFunctionProfileStartCode ""
+    CachedForcingFunctionProfileEndCode	""
+    CachedMassMatrixProfileDeclsCode ""
+    CachedMassMatrixProfileStartCode ""
+    CachedMassMatrixProfileEndCode ""
+    CachedInitSystemMatricesProfileDeclsCode ""
+    CachedInitSystemMatricesProfileStartCode ""
+    CachedInitSystemMatricesProfileEndCode ""
+    CachedDisableProfileDeclsCode ""
+    CachedDisableProfileStartCode ""
+    CachedDisableProfileEndCode	""
+    CachedEnableProfileDeclsCode ""
+    CachedEnableProfileStartCode ""
+    CachedEnableProfileEndCode ""
+    CachedFinalizeDimsProfileDeclsCode ""
+    CachedFinalizeDimsProfileStartCode ""
+    CachedFinalizeDimsProfileEndCode ""
+    CachedSetDimsProfileDeclsCode ""
+    CachedSetDimsProfileStartCode ""
+    CachedSetDimsProfileEndCode	""
+    CachedInitializeProfileDeclsCode ""
+    CachedInitializeProfileStartCode ""
+    CachedInitializeProfileEndCode ""
+    CachedZeroCrossingProfileDeclsCode ""
+    CachedZeroCrossingProfileStartCode ""
+    CachedZeroCrossingProfileEndCode ""
+    CachedTerminateProfileDeclsCode ""
+    CachedTerminateProfileStartCode ""
+    CachedTerminateProfileEndCode ""
+    CachedStateflowFcnCode  ""
+    SystemIncludes	    ""
+    SystemTypeDefs	    ""
+    SystemFcnPrototype	    ""
+    NeedTIDInOutput	    0
+    NeedTIDInUpdate	    0
+    NeedCPIInOutputUpdate   0
+    ForceOutputUpdateFcn    0
+    InstanceCached	    0
+    InstanceTerminateCached 0
+    InstanceDumped	    0
+    InstanceHeaderDumped    0
+    InstanceNonEmpty	    0
+    InstanceTerminateNonEmpty 0
+    NeedMathLibrary	    0
+    SystemCached	    0
+    SystemNonEmpty	    0
+    SystemTerminateCached   0
+    SystemTerminateNonEmpty 0
+    SystemDumped	    0
+    CachedOutput0Fcn	    ""
+    CachedOutputUpdate0Fcn  ""
+    CachedUpdate0Fcn	    ""
+    CachedOutput0LocalBO    ""
+    CachedOutputUpdate0LocalBO ""
+    CachedOutput0GlobalVars ""
+    CachedOutputUpdate0GlobalVars ""
+    CachedUpdate0GlobalVars ""
+    Output0Fcn		    ""
+    Update0Fcn		    ""
+    OutputUpdate0Fcn	    ""
+    CachedOutput1Fcn	    ""
+    CachedOutputUpdate1Fcn  ""
+    CachedUpdate1Fcn	    ""
+    CachedOutput1LocalBO    ""
+    CachedOutputUpdate1LocalBO ""
+    CachedOutput1GlobalVars ""
+    CachedOutputUpdate1GlobalVars ""
+    CachedUpdate1GlobalVars ""
+    Output1Fcn		    ""
+    Update1Fcn		    ""
+    OutputUpdate1Fcn	    ""
+  }
+  BlockIOArgDefDefaults {
+    FirstLocation	    0
+    NumFlatFields	    0
+  }
+  ConstBlockIOArgDefDefaults {
+    FirstLocation	    0
+    NumFlatFields	    0
+  }
+  DWorkArgDefDefaults {
+    FirstLocation	    0
+    NumFlatFields	    0
+  }
+  LocalSDWorkArgDefDefaults {
+    FirstLocation	    0
+    NumFlatFields	    0
+  }
+  ContStatesArgDefDefaults {
+    FirstLocation	    0
+    NumFlatFields	    0
+  }
+  NonsampledZCArgDefDefaults {
+    FirstLocation	    0
+    NumFlatFields	    0
+  }
+  ZCEventArgDefDefaults {
+    FirstLocation	    0
+    NumFlatFields	    0
+  }
+  ZCSVArgDefDefaults {
+    FirstLocation	    0
+    NumFlatFields	    0
+  }
+  LocalBlockIODefDefaults {
+    FirstLocation	    0
+    NumFlatFields	    0
+  }
+  ExternBlockIODefDefaults {
+    FirstLocation	    0
+    NumFlatFields	    0
+  }
+  SystemDefaults {
+    HasDWorkArg		    0
+    HasBlockIOArg	    0
+    HasConstBlockIOArg	    0
+    HasParametersArg	    0
+    HasZCEventArg	    0
+    HasCStatesArg	    0
+    HasCStatesDerivArg	    0
+    HasContStatesDisabledArg 0
+    HasMassMatrixGlobalArg  0
+    HasNonSampledZCArg	    0
+    HasZCSignalValueArg	    0
+    DeletedInIR		    0
+    IsCondExec		    0
+    StandaloneSubsystem	    0
+    LivesInStandaloneSS	    [0]
+    StandaloneParentSysIdx  [-1]
+    HasRTWUserData	    0
+    StartMethodHasUserData  0
+    InitializeMethodHasUserData	0
+    OutputMethodHasUserData 0
+    UpdateMethodHasUserData 0
+    DerivativeMethodHasUserData	0
+    EnableMethodHasUserData 0
+    DisableMethodHasUserData 0
+    ZeroCrossingMethodHasUserData 0
+    ProjectionMethodHasUserData	0
+    ForcingFunctionMethodHasUserData 0
+    MassMatrixMethodHasUserData	0
+    TerminateMethodHasUserData 0
+    StartUserDataTLCInserted 0
+    InitializeUserDataTLCInserted 0
+    OutputUserDataTLCInserted 0
+    UpdateUserDataTLCInserted 0
+    DerivativeUserDataTLCInserted 0
+    EnableUserDataTLCInserted 0
+    DisableUserDataTLCInserted 0
+    ZeroCrossingUserDataTLCInserted 0
+    ProjectionUserDataTLCInserted 0
+    ForcingFunctionUserDataTLCInserted 0
+    MassMatrixUserDataTLCInserted 0
+    TerminateUserDataTLCInserted 0
+    LocalPreprocessorCondition ""
+    NetPreprocessorCondition ""
+    CurrentTID		    -1
+  }
+  CanonicalPrmArgDefDefaults {
+    OriginalDataTypeIdx	    0
+    CGTypeIdx		    29
+    IsUsed		    yes
+  }
+  NumSystems		  1
+  System {
+    Type		    root
+    Name		    "<Root>"
+    Identifier		    "robot_4DOF_jointspace"
+    RTWSystemCode	    2
+    Synthesized		    0
+    CrossNoArgFcnBound	    0
+    ContainsNonreusedFcn    0
+    ForceNonInline	    0
+    SystemIdx		    0
+    SL_SystemIdx	    0
+    BlockIOVarGroupIndex    [0]
+    DWorkVarGroupIndex	    [1]
+    ParameterVarGroupIndex  [2]
+    ContStatesVarGroupIndex [3]
+    ContStatesDisabledVarGroupIndex [4]
+    ContStatesDerivativeVarGroupIndex [5]
+    HStructDeclSystemIdx    0
+    NumHStructChildSystems  0
+    NumChildSystems	    0
+    Interface {
+      NumCanonicalInputArgDefs 0
+      BlockIOArgDef {
+	NumFlatFields		5
+      }
+      ConstBlockIOArgDef {
+      }
+      NumCanonicalOutputArgDefs	0
+      ParameterArgDef {
+	FirstLocation		0
+	NumFlatFields		7
+	PassthroughSystemIdx	-1
+      }
+      DWorkArgDef {
+	NumFlatFields		3
+      }
+      LocalSDWorkArgDef {
+	FirstLocation		3
+	NumFlatFields		6
+      }
+      ContStatesArgDef {
+	NumFlatFields		3
+      }
+      ContStatesDerivativeArgDef {
+      }
+      ContStatesDisabledArgDef {
+      }
+      NonsampledZCArgDef {
+      }
+      ZCEventArgDef {
+      }
+      ZCSVArgDef {
+      }
+      RTMArgDef {
+      }
+    }
+    Variables {
+      LocalBlockIODef {
+	NumFlatFields		7
+      }
+      ExternBlockIODef {
+      }
+    }
+    RunFcnCallSSInMinorStep no
+    TriggerBlkIdx	    -1
+    TriggerBlkReset	    0
+    StatesCanReset	    no
+    GuardAgainstStateReset  no
+    NumZCEvents		    0
+    CGIRModuleIdx	    0
+    FileNameOwnerIdx	    0
+    IncludedChildSystemIdx  []
+    IncludedReusableParentSystemIdx []
+    IncludedReusableParentHeaderFiles []
+    NumIncludedModelReference 0
+    SystemFileName	    "robot_4DOF_jointspace"
+    NumBlocks		    8
+    NumVirtualOutportBlocks 0
+    VirtualOutportBlocksIdx 8
+    NumTotalBlocks	    8
+    Block {
+      Type		      Scope
+      UseTLC		      1
+      BlockIdx		      [0, 0, 0]
+      SL_BlockIdx	      1
+      GrSrc		      [0, 3]
+      ExprCommentInfo {
+      }
+      ExprCommentSrcIdx {
+      }
+      Name		      "<Root>/Scope"
+      Identifier	      "Scope"
+      TID		      1
+      PWork		      [1, 1]
+      NumDWork		      1
+      DWork {
+	Name			"PWORK"
+	FirstRootIdx		1
+      }
+      RollRegions	      [0:3]
+      NumDataInputPorts	      1
+      DataInputPort {
+	SignalSrc		[b0@4]
+	SignalOffset		[0:3]
+	CGTypeIdx		17
+      }
+      NumDataOutputPorts      0
+      NumPWorkDefines	      1
+      PWorkDefine {
+	Name			"LoggedData"
+	Width			1
+	StartIndex		0
+      }
+      ParamSettings {
+	SaveToWorkspace		no
+	SaveName		ScopeData
+	MaxDataPoints		[5000]
+	Decimation		[1]
+	DataFormat		"StructureWithTime"
+	AxesTitles {
+	  axes1			  ""
+	}
+	AxesLabels {
+	  axes1			  ""
+	}
+	PlotStyles		[0, 0, 0, 0]
+      }
+    }
+    Block {
+      Type		      Constant
+      BlockIdx		      [0, 0, 1]
+      SL_BlockIdx	      2
+      GrSrc		      [0, 2]
+      ExprCommentInfo {
+      }
+      ExprCommentSrcIdx {
+      }
+      Name		      "<Root>/desired joint"
+      Identifier	      "desiredjoint"
+      TID		      1
+      RollRegions	      [0:3]
+      DataOutputPort {
+	SignalSrc		[C0@4]
+	SignalOffset		[0:3]
+	CGTypeIdx		17
+	OutputExpression	1
+	TrivialOutputExpression	1
+      }
+      Parameters	      [1, 4]
+      Parameter {
+	Name			"Value"
+	ASTNode {
+	  IsNonTerminal		  0
+	  Op			  SL_NOT_INLINED
+	  ModelParameterIdx	  1
+	}
+	Value			Vector(4)
+[0.52359877559829882, 0.26179938779914941, 0.26179938779914941, ...
+1.0471975511965976]
+	CGTypeIdx		30
+	String			"[pi/6;pi/12;pi/12;pi/3]"
+	StringType		"Expression"
+      }
+      Value		      Parameter[0]
+    }
+    Block {
+      Type		      Derivative
+      InMask		      yes
+      UseTLC		      1
+      BlockIdx		      [0, 0, 2]
+      SL_BlockIdx	      5
+      GrSrc		      [1, 0]
+      ExprCommentInfo {
+      }
+      ExprCommentSrcIdx {
+      }
+      Name		      "<S1>/Ideal Derivative"
+      SLName		      "<S1>/Ideal\nDerivative"
+      Identifier	      "IdealDerivative"
+      TID		      0
+      RWork		      [10, 0]
+      NumDWork		      1
+      DWork {
+	Name			"RWORK"
+	FirstRootIdx		0
+      }
+      RollRegions	      [0:3]
+      NumDataInputPorts	      1
+      DataInputPort {
+	SignalSrc		[b1@4]
+	SignalOffset		[0:3]
+	CGTypeIdx		17
+      }
+      DataOutputPort {
+	SignalSrc		[L5@4]
+	SignalOffset		[0:3]
+	CGTypeIdx		17
+      }
+      NumRWorkDefines	      4
+      RWorkDefine {
+	Name			"TimeStampA"
+	Width			1
+	StartIndex		0
+      }
+      RWorkDefine {
+	Name			"LastUAtTimeA"
+	Width			4
+	StartIndex		1
+      }
+      RWorkDefine {
+	Name			"TimeStampB"
+	Width			1
+	StartIndex		5
+      }
+      RWorkDefine {
+	Name			"LastUAtTimeB"
+	Width			4
+	StartIndex		6
+      }
+    }
+    Block {
+      Type		      Scope
+      UseTLC		      1
+      BlockIdx		      [0, 0, 3]
+      SL_BlockIdx	      10
+      GrSrc		      [2, 6]
+      ExprCommentInfo {
+      }
+      ExprCommentSrcIdx {
+      }
+      Name		      "<S2>/Scope"
+      Identifier	      "Scope_p"
+      TID		      1
+      PWork		      [1, 2]
+      NumDWork		      1
+      DWork {
+	Name			"PWORK"
+	FirstRootIdx		2
+      }
+      RollRegions	      [0:3]
+      NumDataInputPorts	      1
+      DataInputPort {
+	SignalSrc		[b0@4]
+	SignalOffset		[0:3]
+	CGTypeIdx		17
+      }
+      NumDataOutputPorts      0
+      NumPWorkDefines	      1
+      PWorkDefine {
+	Name			"LoggedData"
+	Width			1
+	StartIndex		0
+      }
+      ParamSettings {
+	SaveToWorkspace		no
+	SaveName		ScopeData1
+	MaxDataPoints		[5000]
+	Decimation		[1]
+	DataFormat		"StructureWithTime"
+	AxesTitles {
+	  axes1			  ""
+	}
+	AxesLabels {
+	  axes1			  ""
+	}
+	PlotStyles		[0, 0, 0, 0]
+      }
+    }
+    Block {
+      Type		      MATLABFcn
+      UseTLC		      1
+      BlockIdx		      [0, 0, 4]
+      SL_BlockIdx	      11
+      GrSrc		      [2, 2]
+      ExprCommentInfo {
+      }
+      ExprCommentSrcIdx {
+      }
+      Name		      "<S2>/G"
+      Identifier	      "G"
+      TID		      0
+      RollRegions	      [0:3]
+      NumDataInputPorts	      1
+      DataInputPort {
+	SignalSrc		[b0@4]
+	SignalOffset		[0:3]
+	CGTypeIdx		17
+      }
+      DataOutputPort {
+	SignalSrc		[L6@4]
+	SignalOffset		[0:3]
+	CGTypeIdx		17
+      }
+    }
+    Block {
+      Type		      MATLABFcn
+      UseTLC		      1
+      BlockIdx		      [0, 0, 5]
+      SL_BlockIdx	      13
+      GrSrc		      [2, 3]
+      ExprCommentInfo {
+      }
+      ExprCommentSrcIdx {
+      }
+      Name		      "<S2>/M"
+      Identifier	      "M"
+      TID		      0
+      RollRegions	      [0:3]
+      NumDataInputPorts	      1
+      DataInputPort {
+	SignalSrc		[b0@4]
+	SignalOffset		[0:3]
+	CGTypeIdx		17
+      }
+      DataOutputPort {
+	SignalSrc		[L4@16]
+	SignalOffset		[0:15]
+	CGTypeIdx		19
+      }
+    }
+    Block {
+      Type		      MATLABFcn
+      UseTLC		      1
+      BlockIdx		      [0, 0, 6]
+      SL_BlockIdx	      15
+      GrSrc		      [2, 4]
+      ExprCommentInfo {
+      }
+      ExprCommentSrcIdx {
+      }
+      Name		      "<S2>/V"
+      Identifier	      "V"
+      TID		      0
+      RollRegions	      [0:3, 4:7]
+      NumDataInputPorts	      1
+      DataInputPort {
+	SignalSrc		[b0@4, b3@4]
+	SignalOffset		[0:3, 0:3]
+	CGTypeIdx		20
+      }
+      DataOutputPort {
+	SignalSrc		[L5@4]
+	SignalOffset		[0:3]
+	CGTypeIdx		17
+      }
+    }
+    Block {
+      Type		      Opaque
+      BlockIdx		      [0, 0, 7]
+      SL_BlockIdx	      7
+      ExprCommentInfo {
+      }
+      ExprCommentSrcIdx {
+      }
+      Name		      "<Root>/Opaque"
+      Identifier	      "Integrator"
+      TID		      [0, 1]
+      NumDataOutputPorts      5
+      DataOutputPort {
+	SignalSrc		[b0@4]
+	SignalOffset		[0:3]
+	CGTypeIdx		17
+      }
+      DataOutputPort {
+	SignalSrc		[b1@4]
+	SignalOffset		[0:3]
+	CGTypeIdx		17
+      }
+      DataOutputPort {
+	SignalSrc		[b2@4]
+	SignalOffset		[0:3]
+	CGTypeIdx		17
+      }
+      DataOutputPort {
+	SignalSrc		[b3@4]
+	SignalOffset		[0:3]
+	CGTypeIdx		17
+      }
+      DataOutputPort {
+	SignalSrc		[b4@4]
+	SignalOffset		[0:3]
+	CGTypeIdx		17
+      }
+      TLCFileName	      "s0_b0_1fowl"
+      OpaqueBlockMethode {
+	HasInstanceSetup	1
+	HasStart		1
+	HasInitializeConditions	1
+	HasOutputs		1
+	HasUpdate		1
+	HasDerivatives		1
+	HasForcingFunction	1
+	HasTerminate		1
+      }
+      Parameters	      [7, 19]
+      Parameter {
+	Name			"InitialCondition"
+	MdlPrmIdx		0
+	String			"0"
+	StringType		"Expression"
+      }
+      Parameter {
+	Name			"Value"
+	MdlPrmIdx		1
+	Value			Vector(4)
+[0.52359877559829882, 0.26179938779914941, 0.26179938779914941, ...
+1.0471975511965976]
+	CGTypeIdx		30
+	String			"[pi/6;pi/12;pi/12;pi/3]"
+	StringType		"Expression"
+      }
+      Parameter {
+	Name			"Gain"
+	MdlPrmIdx		2
+	Value			[50.0, 35.0, 35.0, 30.0]
+	CGTypeIdx		30
+	String			"D"
+	StringType		"Expression"
+      }
+      Parameter {
+	Name			"Gain"
+	MdlPrmIdx		3
+	Value			[0.0, 0.0, 0.0, 0.0]
+	CGTypeIdx		30
+	String			"I"
+	StringType		"Expression"
+      }
+      Parameter {
+	Name			"InitialCondition"
+	MdlPrmIdx		4
+	String			"0"
+	StringType		"Expression"
+      }
+      Parameter {
+	Name			"Gain"
+	MdlPrmIdx		5
+	Value			[600.0, 500.0, 400.0, 400.0]
+	CGTypeIdx		30
+	String			"P"
+	StringType		"Expression"
+      }
+      Parameter {
+	Name			"InitialCondition"
+	MdlPrmIdx		6
+	String			"0"
+	StringType		"Expression"
+      }
+    }
+    EmptySubsysInfo {
+      NumRTWdatas	      0
+    }
+  }
+  BlockParamChecksum	  ["2824443121U", "3026205056U", "286456309U", "2171857813U"]
+  ModelChecksum		  ["3483179129U", "4105140764U", "2861680402U", "723857086U"]
+  IncludeCodeGenSettings  1
+  CGTypes {
+    CGTypeDefaults {
+      SLTypeIdx		      -1
+      BaseIdx		      0
+      Width		      1
+      NumDimensions	      2
+      Dimensions	      [1, 1]
+    }
+    MemberDefaults {
+      CGTypeIdx		      0
+    }
+    NumCGTypes		    31
+    DeclareUsedMultiWordBits 0
+    CGType {
+      Name		      "real_T"
+      SLTypeIdx		      0
+      Constructor	      "double"
+    }
+    CGType {
+      Name		      "real32_T"
+      SLTypeIdx		      1
+      Constructor	      "float"
+    }
+    CGType {
+      Name		      "int8_T"
+      SLTypeIdx		      2
+      Constructor	      "signed"
+    }
+    CGType {
+      Name		      "uint8_T"
+      SLTypeIdx		      3
+      Constructor	      "unsigned"
+    }
+    CGType {
+      Name		      "int16_T"
+      SLTypeIdx		      4
+      Constructor	      "signed"
+    }
+    CGType {
+      Name		      "uint16_T"
+      SLTypeIdx		      5
+      Constructor	      "unsigned"
+    }
+    CGType {
+      Name		      "int32_T"
+      SLTypeIdx		      6
+      Constructor	      "signed"
+    }
+    CGType {
+      Name		      "uint32_T"
+      SLTypeIdx		      7
+      Constructor	      "unsigned"
+    }
+    CGType {
+      Name		      "boolean_T"
+      SLTypeIdx		      8
+      Constructor	      "bool"
+    }
+    CGType {
+      Name		      "fcn_call"
+      SLTypeIdx		      9
+      Constructor	      "unknown"
+    }
+    CGType {
+      Name		      "int_T"
+      SLTypeIdx		      10
+      Constructor	      "renamed"
+      BaseIdx		      6
+    }
+    CGType {
+      SLTypeIdx		      11
+      Constructor	      "pointer"
+      BaseIdx		      -1
+    }
+    CGType {
+      Name		      "action"
+      SLTypeIdx		      12
+      Constructor	      "unknown"
+    }
+    CGType {
+      Name		      "timer_uint32_pair"
+      SLTypeIdx		      13
+      Width		      2
+      Constructor	      "array"
+      BaseIdx		      7
+    }
+    CGType {
+      Name		      "ZCEventType"
+      Constructor	      "enum"
+    }
+    CGType {
+      Name		      "ZCDirection"
+      Constructor	      "enum"
+    }
+    CGType {
+      Name		      "ZCSigStatType"
+      Constructor	      "renamed"
+      BaseIdx		      3
+    }
+    CGType {
+      Width		      4
+      Constructor	      "matrix"
+      NumDimensions	      1
+      Dimensions	      [4]
+    }
+    CGType {
+      Width		      10
+      Constructor	      "matrix"
+      NumDimensions	      1
+      Dimensions	      [10]
+    }
+    CGType {
+      Width		      16
+      Constructor	      "matrix"
+      Dimensions	      [4, 4]
+    }
+    CGType {
+      Width		      8
+      Constructor	      "matrix"
+      NumDimensions	      1
+      Dimensions	      [8]
+    }
+    CGType {
+      Width		      16
+      Constructor	      "matrix"
+      NumDimensions	      1
+      Dimensions	      [16]
+    }
+    CGType {
+      Width		      4
+      Constructor	      "matrix"
+      BaseIdx		      8
+      NumDimensions	      1
+      Dimensions	      [4]
+    }
+    CGType {
+      Name		      "BlockIO"
+      Constructor	      "struct"
+      IsLoweredMultiWord      0
+      Members {
+	NumMembers		5
+	Member {
+	  Name			  "Integrator"
+	  CGTypeIdx		  17
+	}
+	Member {
+	  Name			  "DerivativeGain"
+	  CGTypeIdx		  17
+	}
+	Member {
+	  Name			  "IntegralGain"
+	  CGTypeIdx		  17
+	}
+	Member {
+	  Name			  "Integrator1"
+	  CGTypeIdx		  17
+	}
+	Member {
+	  Name			  "MatrixMultiply"
+	  CGTypeIdx		  17
+	}
+      }
+    }
+    CGType {
+      Name		      "D_Work"
+      Constructor	      "struct"
+      IsLoweredMultiWord      0
+      Members {
+	NumMembers		3
+	Member {
+	  Name			  "IdealDerivative_RWORK"
+	  CGTypeIdx		  18
+	}
+	Member {
+	  Name			  "Scope_PWORK"
+	  CGTypeIdx		  11
+	}
+	Member {
+	  Name			  "Scope_PWORK_k"
+	  CGTypeIdx		  11
+	}
+      }
+    }
+    CGType {
+      Name		      "Parameters"
+      Constructor	      "struct"
+      IsLoweredMultiWord      0
+      Members {
+	NumMembers		7
+	Member {
+	  Name			  "Integrator_IC"
+	}
+	Member {
+	  Name			  "desiredjoint_Value"
+	  CGTypeIdx		  17
+	}
+	Member {
+	  Name			  "DerivativeGain_Gain"
+	  CGTypeIdx		  17
+	}
+	Member {
+	  Name			  "IntegralGain_Gain"
+	  CGTypeIdx		  17
+	}
+	Member {
+	  Name			  "Integrator_IC_a"
+	}
+	Member {
+	  Name			  "ProportionalGain_Gain"
+	  CGTypeIdx		  17
+	}
+	Member {
+	  Name			  "Integrator1_IC"
+	}
+      }
+    }
+    CGType {
+      Name		      "ContinuousStates"
+      Constructor	      "struct"
+      IsLoweredMultiWord      0
+      Members {
+	NumMembers		3
+	Member {
+	  Name			  "Integrator_CSTATE"
+	  CGTypeIdx		  17
+	}
+	Member {
+	  Name			  "Integrator_CSTATE_m"
+	  CGTypeIdx		  17
+	}
+	Member {
+	  Name			  "Integrator1_CSTATE"
+	  CGTypeIdx		  17
+	}
+      }
+    }
+    CGType {
+      Name		      "StateDisabled"
+      Constructor	      "struct"
+      IsLoweredMultiWord      0
+      Members {
+	NumMembers		3
+	Member {
+	  Name			  "Integrator_CSTATE"
+	  CGTypeIdx		  22
+	}
+	Member {
+	  Name			  "Integrator_CSTATE_m"
+	  CGTypeIdx		  22
+	}
+	Member {
+	  Name			  "Integrator1_CSTATE"
+	  CGTypeIdx		  22
+	}
+      }
+    }
+    CGType {
+      Name		      "StateDerivatives"
+      Constructor	      "struct"
+      IsLoweredMultiWord      0
+      Members {
+	NumMembers		3
+	Member {
+	  Name			  "Integrator_CSTATE"
+	  CGTypeIdx		  17
+	}
+	Member {
+	  Name			  "Integrator_CSTATE_m"
+	  CGTypeIdx		  17
+	}
+	Member {
+	  Name			  "Integrator1_CSTATE"
+	  CGTypeIdx		  17
+	}
+      }
+    }
+    CGType {
+      Constructor	      "matrix"
+    }
+    CGType {
+      Width		      4
+      Constructor	      "matrix"
+      Dimensions	      [4, 1]
+    }
+  }
+  RTWCGModules {
+    RTWCGModuleDefaults {
+      IsSignificantModuleFcnConst "yes"
+      NumFunctions	      0
+      NumSubFunctions	      0
+      HasConstants	      0
+      HasExportedTypes	      0
+      HasPublicTypes	      0
+      HasVariables	      0
+      HasRecursion	      0
+      HasExportedSym	      0
+    }
+    FunctionDefaults {
+      BlockName		      ""
+      BlockType		      ""
+      IsRecursive	      0
+      IsExported	      0
+      IsShared		      0
+      NumArgs		      0
+      ProtoType		      ""
+      PassThroughArgs	      ""
+      NumFcnCalls	      0
+      NumFcnHeaders	      0
+    }
+    NumRTWCGModules	    1
+    RTWCGModule {
+      TLCFileName	      "s0_b0_1fowl"
+      RTWFcnConst {
+	HasInstanceSetup	"yes"
+	Start_Function {
+	  HasTidArg 0
+	  HasCpiArg 0
+	  TLCFileName		  "s0_b0_1fowl_Start"
+	}
+	InitializeConditions_Function {
+	  HasTidArg 0
+	  HasCpiArg 0
+	  TLCFileName		  "s0_b0_1fowl_InitializeConditions"
+	}
+	Outputs_Function {
+	  HasTidArg 0
+	  HasCpiArg 0
+	  TLCFileName		  "s0_b0_1fowl_Outputs"
+	}
+	Update_Function {
+	  HasTidArg 0
+	  HasCpiArg 0
+	  TLCFileName		  "s0_b0_1fowl_Update"
+	}
+	Derivatives_Function {
+	  HasTidArg 0
+	  HasCpiArg 0
+	  TLCFileName		  "s0_b0_1fowl_Derivatives"
+	}
+	ForcingFunction_Function {
+	  HasTidArg 0
+	  HasCpiArg 0
+	  TLCFileName		  "s0_b0_1fowl_ForcingFunction"
+	}
+	Terminate_Function {
+	  HasTidArg 0
+	  HasCpiArg 0
+	  TLCFileName		  "s0_b0_1fowl_Terminate"
+	}
+      }
+      CGSystemIdx	      0
+    }
+  }
+  VarGroups {
+    NumVarGroups	    6
+    VarGroupDefaults {
+      IsPointer		      0
+      InstanceIdx	      0
+      Category		      "BlockIO"
+      LocalName		      "localB"
+      NonreusedName	      ""
+      ParentVarGroupIdx	      -1
+      NumFlatData	      0
+      NumSubStruct	      0
+    }
+    VarGroup {
+      Name		      "rtB"
+      SysIdx		      0
+      InstanceIdx	      -1
+      CGTypeIdx		      23
+      GlobalOffset	      0
+      NumFlatData	      5
+      DataRecIndices	      [0, 1, 2, 3, 4]
+    }
+    VarGroup {
+      Name		      "rtDWork"
+      Category		      "DWork"
+      LocalName		      "localDW"
+      SysIdx		      0
+      InstanceIdx	      -1
+      CGTypeIdx		      24
+      GlobalOffset	      0
+      NumFlatData	      3
+      DataRecIndices	      [0, 1, 2]
+    }
+    VarGroup {
+      Name		      "rtP"
+      Category		      "Parameter"
+      LocalName		      "localP"
+      SysIdx		      0
+      InstanceIdx	      -1
+      CGTypeIdx		      25
+      GlobalOffset	      0
+      NumFlatData	      7
+      DataRecIndices	      [0, 1, 2, 3, 4, 5, 6]
+    }
+    VarGroup {
+      Name		      "ContinuousStates"
+      Category		      "ContStates"
+      LocalName		      "localX"
+      SysIdx		      0
+      InstanceIdx	      -1
+      CGTypeIdx		      26
+      NumFlatData	      3
+      DataRecIndices	      [-1, 0, 1]
+    }
+    VarGroup {
+      Name		      "StateDisabled"
+      Category		      "ContStatesDisabled"
+      LocalName		      "localXdis"
+      SysIdx		      0
+      InstanceIdx	      -1
+      CGTypeIdx		      27
+      NumFlatData	      3
+      DataRecIndices	      [-1, 0, 1]
+    }
+    VarGroup {
+      Name		      "StateDerivatives"
+      Category		      "ContStatesDerivative"
+      LocalName		      "localXdot"
+      SysIdx		      0
+      InstanceIdx	      -1
+      CGTypeIdx		      28
+      NumFlatData	      3
+      DataRecIndices	      [-1, 0, 1]
+    }
+  }
+  SharedFunctions {
+  }
+  SharedFunctionDecls {
+  }
+}
